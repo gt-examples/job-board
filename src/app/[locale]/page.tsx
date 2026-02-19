@@ -1,142 +1,117 @@
 import { T, Var, Currency, DateTime, Plural } from "gt-next";
-import { getGT } from "gt-next/server";
+import { getGT, getTranslations } from "gt-next/server";
 import { LocaleSelector } from "gt-next";
 
 type Job = {
   id: number;
-  title: string;
-  company: string;
-  location: string;
-  description: string;
+  dictKey: string;
   salaryMin: number;
   salaryMax: number;
   currency: string;
   deadline: Date;
   requirements: number;
-  type: string;
 };
 
 const jobs: Job[] = [
   {
     id: 1,
-    title: "Senior Frontend Engineer",
-    company: "Meridian Systems",
-    location: "San Francisco, CA",
-    description:
-      "Build and maintain complex web applications using React and TypeScript. Lead architectural decisions for our customer-facing platform.",
+    dictKey: "1",
     salaryMin: 150000,
     salaryMax: 200000,
     currency: "USD",
     deadline: new Date("2026-04-15"),
     requirements: 5,
-    type: "Full-time",
   },
   {
     id: 2,
-    title: "Backend Developer",
-    company: "Norden Analytics",
-    location: "Berlin, Germany",
-    description:
-      "Design and implement scalable microservices in Go. Work on real-time data processing pipelines serving millions of requests daily.",
+    dictKey: "2",
     salaryMin: 65000,
     salaryMax: 85000,
     currency: "EUR",
     deadline: new Date("2026-03-30"),
     requirements: 3,
-    type: "Full-time",
   },
   {
     id: 3,
-    title: "Product Designer",
-    company: "Luma Creative",
-    location: "Tokyo, Japan",
-    description:
-      "Shape the user experience for our design collaboration tool. Conduct research, create prototypes, and work closely with engineering to ship polished interfaces.",
+    dictKey: "3",
     salaryMin: 7000000,
     salaryMax: 10000000,
     currency: "JPY",
     deadline: new Date("2026-05-01"),
     requirements: 4,
-    type: "Full-time",
   },
   {
     id: 4,
-    title: "DevOps Engineer",
-    company: "Cirrus Infrastructure",
-    location: "Remote",
-    description:
-      "Manage cloud infrastructure on AWS and GCP. Automate deployment pipelines and improve system reliability across a global network of services.",
+    dictKey: "4",
     salaryMin: 120000,
     salaryMax: 160000,
     currency: "USD",
     deadline: new Date("2026-04-10"),
     requirements: 6,
-    type: "Contract",
   },
   {
     id: 5,
-    title: "Data Scientist",
-    company: "Vantage Research",
-    location: "London, UK",
-    description:
-      "Develop machine learning models for financial forecasting. Analyze large datasets and present findings to stakeholders across the organization.",
+    dictKey: "5",
     salaryMin: 70000,
     salaryMax: 95000,
     currency: "GBP",
     deadline: new Date("2026-03-25"),
     requirements: 4,
-    type: "Full-time",
   },
   {
     id: 6,
-    title: "Mobile Developer",
-    company: "Aether Apps",
-    location: "Sydney, Australia",
-    description:
-      "Build cross-platform mobile applications using React Native. Collaborate with designers to deliver smooth, performant experiences on iOS and Android.",
+    dictKey: "6",
     salaryMin: 110000,
     salaryMax: 140000,
     currency: "AUD",
     deadline: new Date("2026-04-20"),
     requirements: 3,
-    type: "Part-time",
   },
 ];
 
-function JobCard({ job }: { job: Job }) {
+async function JobCard({ job }: { job: Job }) {
+  const d = await getTranslations("jobs." + job.dictKey);
+
   return (
     <div className="border border-neutral-800 rounded-lg p-6 hover:border-neutral-700 transition-colors">
-      <T>
-        <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-4">
-          <div>
-            <h3 className="text-lg font-semibold text-neutral-100">
-              <Var>{job.title}</Var>
-            </h3>
-            <p className="text-sm text-neutral-400 mt-1">
-              <Var>{job.company}</Var> -- <Var>{job.location}</Var>
-            </p>
-          </div>
-          <span className="inline-flex items-center self-start px-2.5 py-0.5 rounded text-xs font-medium bg-neutral-800 text-neutral-300 border border-neutral-700 whitespace-nowrap">
-            <Var>{job.type}</Var>
-          </span>
+      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-4">
+        <div>
+          <h3 className="text-lg font-semibold text-neutral-100">
+            {d("title")}
+          </h3>
+          <p className="text-sm text-neutral-400 mt-1">
+            {d("company")} — {d("location")}
+          </p>
         </div>
-        <p className="text-sm text-neutral-400 leading-relaxed mb-4">
-          <Var>{job.description}</Var>
-        </p>
+        <span className="inline-flex items-center self-start px-2.5 py-0.5 rounded text-xs font-medium bg-neutral-800 text-neutral-300 border border-neutral-700 whitespace-nowrap">
+          {d("type")}
+        </span>
+      </div>
+      <p className="text-sm text-neutral-400 leading-relaxed mb-4">
+        {d("description")}
+      </p>
+      <T>
         <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 text-sm text-neutral-500">
           <span>
             Salary: <Currency currency={job.currency}>{job.salaryMin}</Currency>{" "}
-            -- <Currency currency={job.currency}>{job.salaryMax}</Currency>
+            — <Currency currency={job.currency}>{job.salaryMax}</Currency>
           </span>
           <span>
-            Deadline:{" "}
-            <DateTime>{job.deadline}</DateTime>
+            Deadline: <DateTime>{job.deadline}</DateTime>
           </span>
           <span>
             <Plural
               n={job.requirements}
-              singular={<><Var>{job.requirements}</Var> requirement</>}
-              plural={<><Var>{job.requirements}</Var> requirements</>}
+              singular={
+                <>
+                  <Var>{job.requirements}</Var> requirement
+                </>
+              }
+              plural={
+                <>
+                  <Var>{job.requirements}</Var> requirements
+                </>
+              }
             />
           </span>
         </div>

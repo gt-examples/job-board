@@ -1,167 +1,109 @@
 {
-  "0bdf666bd8d01228": "Un site d’offres d’emploi multilingue avec des salaires, des dates limites et des nombres d’exigences adaptés à la locale.",
-  "482f7d347d0e9f9d": [
-    {
-      "c": [
-        {
-          "c": [
-            {
-              "c": {
-                "i": 4,
-                "k": "_gt_value_4",
-                "v": "v"
-              },
-              "i": 3,
-              "t": "h3"
-            },
-            {
-              "c": [
-                {
-                  "i": 6,
-                  "k": "_gt_value_6",
-                  "v": "v"
-                },
-                " -- ",
-                {
-                  "i": 7,
-                  "k": "_gt_value_7",
-                  "v": "v"
-                }
-              ],
-              "i": 5,
-              "t": "p"
-            }
-          ],
-          "i": 2,
-          "t": "div"
-        },
-        {
-          "c": {
-            "i": 9,
-            "k": "_gt_value_9",
-            "v": "v"
-          },
-          "i": 8,
-          "t": "span"
-        }
-      ],
-      "i": 1,
-      "t": "div"
-    },
-    {
-      "c": {
-        "i": 11,
-        "k": "_gt_value_11",
-        "v": "v"
-      },
-      "i": 10,
-      "t": "p"
-    },
-    {
-      "c": [
-        {
-          "c": [
-            "Salaire : ",
-            {
-              "i": 14,
-              "k": "_gt_cost_14",
-              "v": "c"
-            },
-            " -- ",
-            {
-              "i": 15,
-              "k": "_gt_cost_15",
-              "v": "c"
-            }
-          ],
-          "i": 13,
-          "t": "span"
-        },
-        {
-          "c": [
-            "Échéance : ",
-            {
-              "i": 17,
-              "k": "_gt_date_17",
-              "v": "d"
-            }
-          ],
-          "i": 16,
-          "t": "span"
-        },
-        {
-          "c": {
-            "d": {
-              "b": {
-                "many": {
-                  "c": [
-                    {
-                      "i": 21,
-                      "k": "_gt_value_21",
-                      "v": "v"
-                    },
-                    " exigences"
-                  ],
-                  "i": 20,
-                  "t": "C20"
-                },
-                "other": {
-                  "c": [
-                    {
-                      "i": 21,
-                      "k": "_gt_value_21",
-                      "v": "v"
-                    },
-                    " exigences"
-                  ],
-                  "i": 20,
-                  "t": "C20"
-                },
-                "plural": {
-                  "c": [
-                    {
-                      "i": 21,
-                      "k": "_gt_value_21",
-                      "v": "v"
-                    },
-                    " exigences"
-                  ],
-                  "i": 20,
-                  "t": "C20"
-                },
-                "singular": {
-                  "c": [
-                    {
-                      "i": 21,
-                      "k": "_gt_value_21",
-                      "v": "v"
-                    },
-                    " exigence"
-                  ],
-                  "i": 20,
-                  "t": "C20"
-                }
-              },
-              "t": "p"
-            },
-            "i": 19,
-            "t": "Plural"
-          },
-          "i": 18,
-          "t": "span"
-        }
-      ],
-      "i": 12,
-      "t": "div"
-    }
-  ],
+  "0bdf666bd8d01228": "Un job board multilingue présentant des salaires, des dates limites de candidature et des nombres d’exigences adaptés à chaque langue et région.",
   "497a99319916a434": {
-    "c": "Conçu avec General Translation pour démontrer le formatage des devises, des dates et des pluriels en fonction des paramètres régionaux.",
+    "c": "Construit avec General Translation pour démontrer le formatage adapté aux paramètres régionaux des devises, des dates et des pluriels.",
     "i": 1,
     "t": "p"
   },
-  "5bcd1368a0260f6b": "Job Board",
-  "61ee4c82092f7c0a": "Job Board | Traduction générique",
+  "5bcd1368a0260f6b": "Tableau d’offres d’emploi",
+  "61ee4c82092f7c0a": "Job Board | Exemple de traduction globale",
+  "e45e880e9f633071": {
+    "c": [
+      {
+        "c": [
+          "Salaire : ",
+          {
+            "i": 3,
+            "k": "_gt_cost_3",
+            "v": "c"
+          },
+          " — ",
+          {
+            "i": 4,
+            "k": "_gt_cost_4",
+            "v": "c"
+          }
+        ],
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": [
+          "Date limite : ",
+          {
+            "i": 6,
+            "k": "_gt_date_6",
+            "v": "d"
+          }
+        ],
+        "i": 5,
+        "t": "span"
+      },
+      {
+        "c": {
+          "d": {
+            "b": {
+              "many": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " exigences"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "other": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " exigences"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "plural": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " exigences"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "singular": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " exigence"
+                ],
+                "i": 9,
+                "t": "C9"
+              }
+            },
+            "t": "p"
+          },
+          "i": 8,
+          "t": "Plural"
+        },
+        "i": 7,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "f836f4caad819654": [
     {
       "c": "Postes ouverts",
@@ -169,9 +111,39 @@
       "t": "h2"
     },
     {
-      "c": "Parcourez les offres d'emploi actuelles en ingénierie, design et données. Les salaires, délais et exigences sont formatés selon votre région.",
+      "c": "Parcourez les offres d'emploi actuelles dans les domaines de l'ingénierie, du design et des données. Les salaires, les délais et les exigences sont formatés selon votre région.",
       "i": 2,
       "t": "p"
     }
-  ]
+  ],
+  "jobs.1.company": "Meridian Systems",
+  "jobs.1.description": "Développer et maintenir des applications web complexes avec React et TypeScript. Prendre les décisions d’architecture pour notre plateforme orientée client.",
+  "jobs.1.location": "San Francisco, Californie",
+  "jobs.1.title": "Ingénieur·e front-end senior",
+  "jobs.1.type": "Temps plein",
+  "jobs.2.company": "Norden Analytics",
+  "jobs.2.description": "Concevoir et implémenter des microservices évolutifs en Go. Travailler sur des pipelines de traitement de données en temps réel qui gèrent des millions de requêtes chaque jour.",
+  "jobs.2.location": "Berlin, Allemagne",
+  "jobs.2.title": "Développeur·euse back-end",
+  "jobs.2.type": "Temps plein",
+  "jobs.3.company": "Luma Creative",
+  "jobs.3.description": "Façonne l’expérience utilisateur de notre outil de collaboration pour le design. Effectue des recherches, crée des prototypes et collabore étroitement avec l’équipe d’ingénierie pour livrer des interfaces abouties.",
+  "jobs.3.location": "Tokyo, Japon",
+  "jobs.3.title": "Designer produit",
+  "jobs.3.type": "Temps plein",
+  "jobs.4.company": "Cirrus Infrastructure",
+  "jobs.4.description": "Gère l’infrastructure cloud sur AWS et GCP. Automatise les pipelines de déploiement et améliore la fiabilité du système à l’échelle d’un réseau mondial de services.",
+  "jobs.4.location": "À distance",
+  "jobs.4.title": "Ingénieur DevOps",
+  "jobs.4.type": "Contrat",
+  "jobs.5.company": "Vantage Research",
+  "jobs.5.description": "Concevoir des modèles de machine learning pour la prévision financière. Analyser de grands volumes de données et présenter les résultats aux parties prenantes dans toute l’organisation.",
+  "jobs.5.location": "Londres, Royaume-Uni",
+  "jobs.5.title": "Data scientist",
+  "jobs.5.type": "Temps plein",
+  "jobs.6.company": "Aether Apps",
+  "jobs.6.description": "Développer des applications mobiles multiplateforme avec React Native. Collaborer avec les designers pour proposer des expériences fluides et performantes sur iOS et Android.",
+  "jobs.6.location": "Sydney, Australie",
+  "jobs.6.title": "Développeur mobile",
+  "jobs.6.type": "Temps partiel"
 }

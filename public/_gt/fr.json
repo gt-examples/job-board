@@ -1,0 +1,177 @@
+{
+  "0bdf666bd8d01228": "Un site d’offres d’emploi multilingue avec des salaires, des dates limites et des nombres d’exigences adaptés à la locale.",
+  "482f7d347d0e9f9d": [
+    {
+      "c": [
+        {
+          "c": [
+            {
+              "c": {
+                "i": 4,
+                "k": "_gt_value_4",
+                "v": "v"
+              },
+              "i": 3,
+              "t": "h3"
+            },
+            {
+              "c": [
+                {
+                  "i": 6,
+                  "k": "_gt_value_6",
+                  "v": "v"
+                },
+                " -- ",
+                {
+                  "i": 7,
+                  "k": "_gt_value_7",
+                  "v": "v"
+                }
+              ],
+              "i": 5,
+              "t": "p"
+            }
+          ],
+          "i": 2,
+          "t": "div"
+        },
+        {
+          "c": {
+            "i": 9,
+            "k": "_gt_value_9",
+            "v": "v"
+          },
+          "i": 8,
+          "t": "span"
+        }
+      ],
+      "i": 1,
+      "t": "div"
+    },
+    {
+      "c": {
+        "i": 11,
+        "k": "_gt_value_11",
+        "v": "v"
+      },
+      "i": 10,
+      "t": "p"
+    },
+    {
+      "c": [
+        {
+          "c": [
+            "Salaire : ",
+            {
+              "i": 14,
+              "k": "_gt_cost_14",
+              "v": "c"
+            },
+            " -- ",
+            {
+              "i": 15,
+              "k": "_gt_cost_15",
+              "v": "c"
+            }
+          ],
+          "i": 13,
+          "t": "span"
+        },
+        {
+          "c": [
+            "Échéance : ",
+            {
+              "i": 17,
+              "k": "_gt_date_17",
+              "v": "d"
+            }
+          ],
+          "i": 16,
+          "t": "span"
+        },
+        {
+          "c": {
+            "d": {
+              "b": {
+                "many": {
+                  "c": [
+                    {
+                      "i": 21,
+                      "k": "_gt_value_21",
+                      "v": "v"
+                    },
+                    " exigences"
+                  ],
+                  "i": 20,
+                  "t": "C20"
+                },
+                "other": {
+                  "c": [
+                    {
+                      "i": 21,
+                      "k": "_gt_value_21",
+                      "v": "v"
+                    },
+                    " exigences"
+                  ],
+                  "i": 20,
+                  "t": "C20"
+                },
+                "plural": {
+                  "c": [
+                    {
+                      "i": 21,
+                      "k": "_gt_value_21",
+                      "v": "v"
+                    },
+                    " exigences"
+                  ],
+                  "i": 20,
+                  "t": "C20"
+                },
+                "singular": {
+                  "c": [
+                    {
+                      "i": 21,
+                      "k": "_gt_value_21",
+                      "v": "v"
+                    },
+                    " exigence"
+                  ],
+                  "i": 20,
+                  "t": "C20"
+                }
+              },
+              "t": "p"
+            },
+            "i": 19,
+            "t": "Plural"
+          },
+          "i": 18,
+          "t": "span"
+        }
+      ],
+      "i": 12,
+      "t": "div"
+    }
+  ],
+  "497a99319916a434": {
+    "c": "Conçu avec General Translation pour démontrer le formatage des devises, des dates et des pluriels en fonction des paramètres régionaux.",
+    "i": 1,
+    "t": "p"
+  },
+  "5bcd1368a0260f6b": "Job Board",
+  "61ee4c82092f7c0a": "Job Board | Traduction générique",
+  "f836f4caad819654": [
+    {
+      "c": "Postes ouverts",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Parcourez les offres d'emploi actuelles en ingénierie, design et données. Les salaires, délais et exigences sont formatés selon votre région.",
+      "i": 2,
+      "t": "p"
+    }
+  ]
+}

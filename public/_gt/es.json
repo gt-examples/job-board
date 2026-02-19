@@ -1,177 +1,149 @@
 {
-  "0bdf666bd8d01228": "Una bolsa de trabajo multilingüe con salarios, fechas límite y recuentos de requisitos ajustados a la configuración regional.",
-  "482f7d347d0e9f9d": [
-    {
-      "c": [
-        {
-          "c": [
-            {
-              "c": {
-                "i": 4,
-                "k": "_gt_value_4",
-                "v": "v"
-              },
-              "i": 3,
-              "t": "h3"
-            },
-            {
-              "c": [
-                {
-                  "i": 6,
-                  "k": "_gt_value_6",
-                  "v": "v"
-                },
-                " -- ",
-                {
-                  "i": 7,
-                  "k": "_gt_value_7",
-                  "v": "v"
-                }
-              ],
-              "i": 5,
-              "t": "p"
-            }
-          ],
-          "i": 2,
-          "t": "div"
-        },
-        {
-          "c": {
-            "i": 9,
-            "k": "_gt_value_9",
-            "v": "v"
-          },
-          "i": 8,
-          "t": "span"
-        }
-      ],
-      "i": 1,
-      "t": "div"
-    },
-    {
-      "c": {
-        "i": 11,
-        "k": "_gt_value_11",
-        "v": "v"
-      },
-      "i": 10,
-      "t": "p"
-    },
-    {
-      "c": [
-        {
-          "c": [
-            "Salario: ",
-            {
-              "i": 14,
-              "k": "_gt_cost_14",
-              "v": "c"
-            },
-            " -- ",
-            {
-              "i": 15,
-              "k": "_gt_cost_15",
-              "v": "c"
-            }
-          ],
-          "i": 13,
-          "t": "span"
-        },
-        {
-          "c": [
-            "Fecha límite: ",
-            {
-              "i": 17,
-              "k": "_gt_date_17",
-              "v": "d"
-            }
-          ],
-          "i": 16,
-          "t": "span"
-        },
-        {
-          "c": {
-            "d": {
-              "b": {
-                "many": {
-                  "c": [
-                    {
-                      "i": 21,
-                      "k": "_gt_value_21",
-                      "v": "v"
-                    },
-                    " de requisitos"
-                  ],
-                  "i": 20,
-                  "t": "C20"
-                },
-                "other": {
-                  "c": [
-                    {
-                      "i": 21,
-                      "k": "_gt_value_21",
-                      "v": "v"
-                    },
-                    " de requisitos"
-                  ],
-                  "i": 20,
-                  "t": "C20"
-                },
-                "plural": {
-                  "c": [
-                    {
-                      "i": 21,
-                      "k": "_gt_value_21",
-                      "v": "v"
-                    },
-                    " de requisitos"
-                  ],
-                  "i": 20,
-                  "t": "C20"
-                },
-                "singular": {
-                  "c": [
-                    {
-                      "i": 21,
-                      "k": "_gt_value_21",
-                      "v": "v"
-                    },
-                    " requisito"
-                  ],
-                  "i": 20,
-                  "t": "C20"
-                }
-              },
-              "t": "p"
-            },
-            "i": 19,
-            "t": "Plural"
-          },
-          "i": 18,
-          "t": "span"
-        }
-      ],
-      "i": 12,
-      "t": "div"
-    }
-  ],
+  "0bdf666bd8d01228": "Una bolsa de empleo multilingüe con salarios, fechas límite y cantidad de requisitos adaptados a cada configuración regional.",
   "497a99319916a434": {
-    "c": "Desarrollado con General Translation para demostrar el formato según la configuración regional de monedas, fechas y plurales.",
+    "c": "Creado con General Translation para demostrar el formato según la configuración regional de monedas, fechas y plurales.",
     "i": 1,
     "t": "p"
   },
-  "5bcd1368a0260f6b": "Bolsa de trabajo",
-  "61ee4c82092f7c0a": "Bolsa de trabajo | Traducción general",
+  "5bcd1368a0260f6b": "Bolsa de empleo",
+  "61ee4c82092f7c0a": "Bolsa de empleo | Traducción general",
+  "e45e880e9f633071": {
+    "c": [
+      {
+        "c": [
+          "Salario: ",
+          {
+            "i": 3,
+            "k": "_gt_cost_3",
+            "v": "c"
+          },
+          " — ",
+          {
+            "i": 4,
+            "k": "_gt_cost_4",
+            "v": "c"
+          }
+        ],
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": [
+          "Fecha límite: ",
+          {
+            "i": 6,
+            "k": "_gt_date_6",
+            "v": "d"
+          }
+        ],
+        "i": 5,
+        "t": "span"
+      },
+      {
+        "c": {
+          "d": {
+            "b": {
+              "many": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " requisitos"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "other": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " requisitos"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "plural": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " requisitos"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "singular": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " requisito"
+                ],
+                "i": 9,
+                "t": "C9"
+              }
+            },
+            "t": "p"
+          },
+          "i": 8,
+          "t": "Plural"
+        },
+        "i": 7,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "f836f4caad819654": [
     {
-      "c": "Posiciones Abiertas",
+      "c": "Posiciones abiertas",
       "i": 1,
       "t": "h2"
     },
     {
-      "c": "Explora las vacantes actuales en ingeniería, diseño y datos. Los salarios, plazos y requisitos están formateados según tu configuración regional.",
+      "c": "Explora las ofertas de trabajo actuales en ingeniería, diseño y datos. Los salarios, plazos y requisitos están formateados según tu región.",
       "i": 2,
       "t": "p"
     }
-  ]
+  ],
+  "jobs.1.company": "Meridian Systems",
+  "jobs.1.description": "Construir y mantener aplicaciones web complejas con React y TypeScript. Tomar decisiones de arquitectura para nuestra plataforma de cara al cliente.",
+  "jobs.1.location": "San Francisco, CA",
+  "jobs.1.title": "Ingeniero senior de Frontend",
+  "jobs.1.type": "Tiempo completo",
+  "jobs.2.company": "Norden Analytics",
+  "jobs.2.description": "Diseñar e implementar microservicios escalables en Go. Trabajar en flujos de procesamiento de datos en tiempo real que procesan millones de solicitudes al día.",
+  "jobs.2.location": "Berlín, Alemania",
+  "jobs.2.title": "Desarrollador Backend",
+  "jobs.2.type": "Tiempo completo",
+  "jobs.3.company": "Luma Creative",
+  "jobs.3.description": "Define la experiencia de usuario de nuestra herramienta de colaboración de diseño. Realiza investigaciones, crea prototipos y colabora estrechamente con el equipo de ingeniería para lanzar interfaces pulidas.",
+  "jobs.3.location": "Tokio, Japón",
+  "jobs.3.title": "Diseñador de producto",
+  "jobs.3.type": "Tiempo completo",
+  "jobs.4.company": "Cirrus Infrastructure",
+  "jobs.4.description": "Gestiona la infraestructura en la nube sobre AWS y GCP. Automatiza los pipelines de despliegue y mejora la fiabilidad del sistema en una red global de servicios.",
+  "jobs.4.location": "Remoto",
+  "jobs.4.title": "Ingeniero DevOps",
+  "jobs.4.type": "Contrato",
+  "jobs.5.company": "Vantage Research",
+  "jobs.5.description": "Desarrolla modelos de aprendizaje automático para la predicción financiera. Analiza grandes volúmenes de datos y presenta los resultados a las partes interesadas de toda la organización.",
+  "jobs.5.location": "Londres, Reino Unido",
+  "jobs.5.title": "Científico de datos",
+  "jobs.5.type": "Tiempo completo",
+  "jobs.6.company": "Aether Apps",
+  "jobs.6.description": "Crea aplicaciones móviles multiplataforma usando React Native. Colabora con diseñadores para brindar experiencias fluidas y de alto rendimiento en iOS y Android.",
+  "jobs.6.location": "Sídney, Australia",
+  "jobs.6.title": "Desarrollador móvil",
+  "jobs.6.type": "Medio tiempo"
 }

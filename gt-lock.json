@@ -22,6 +22,28 @@
           }
         }
       }
+    },
+    "brc_maeqml7ggsi9sv5lx5g5qarv": {
+      "879f3a5f954ee8b75bf1e91f4ea9916b41c933e5beba7eb6362647a637c9c66d": {
+        "3270801919cbaf3e5ba1462d64c97b7671d4516a69d4e56510bd979026ae2cb3": {
+          "es": {
+            "updatedAt": "2026-02-19T05:48:11.384Z",
+            "postProcessHash": "0f993cf3dad096f8a6a1f095b7b71d950062761ecc8c405b6725d037bcb8596a"
+          },
+          "fr": {
+            "updatedAt": "2026-02-19T05:48:11.388Z",
+            "postProcessHash": "ce756383ab748aa9a6fa0e873d552bc76549a3e18ce684da747fb27952fd6858"
+          },
+          "ja": {
+            "updatedAt": "2026-02-19T05:48:11.390Z",
+            "postProcessHash": "b3c8f347ba0d1556f169184ad98fc186a74999f992184e6d86c59f42b09f61c8"
+          },
+          "zh": {
+            "updatedAt": "2026-02-19T05:48:11.391Z",
+            "postProcessHash": "2a0f79e206e83f512ec222fb955ba11e4437ee8aca4bf8d2f5b5d6997c9e635d"
+          }
+        }
+      }
     }
   }
 }

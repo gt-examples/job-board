@@ -1,12 +1,267 @@
 {
-  "0bdf666bd8d01228": "一个支持多语言的职位列表示例，薪资、截止日期和要求条目数都会根据本地化设置智能展示。",
-  "497a99319916a434": {
-    "c": "基于 General Translation 构建，用于演示货币、日期和复数形式的本地化格式处理。",
+  "0018cad52ae5d7d4": {
+    "c": "优势",
+    "i": 1,
+    "t": "h2"
+  },
+  "0bdf666bd8d01228": "一款支持多语言的职位列表看板组件，对薪资、截止日期和需求计数等内容具备 locale 感知能力。",
+  "12141f7a3bb3dc2c": {
+    "c": "语言文化",
+    "i": 1,
+    "t": "h2"
+  },
+  "1c4f1865fd2cebeb": {
+    "c": "关于",
+    "i": 1,
+    "t": "h2"
+  },
+  "220eb917ee794996": [
+    {
+      "c": "申请此职位",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "对此职位感兴趣？这是一个演示应用，但在真实的招聘平台中，您可以在此提交申请。",
+      "i": 2,
+      "t": "p"
+    },
+    {
+      "c": "提交申请",
+      "i": 3,
+      "t": "button"
+    }
+  ],
+  "33c100e3b18b2005": {
+    "c": "关于公司",
+    "i": 1,
+    "t": "h2"
+  },
+  "41e3306ddcb60994": {
+    "c": "这是一个使用 General Translation 构建的示例应用，用于演示国际化功能。以下职位列表均为虚构内容。",
     "i": 1,
     "t": "p"
   },
+  "43309c30697915a3": [
+    {
+      "c": "查看公司简介",
+      "i": 1,
+      "t": "span"
+    },
+    " ",
+    {
+      "c": "→",
+      "i": 2,
+      "t": "span"
+    }
+  ],
+  "43b1ff0da173f934": "基础架构",
+  "46e092f48cb4bb10": "数据科学",
+  "4730f0952f7a36fe": {
+    "c": "要求",
+    "i": 1,
+    "t": "h2"
+  },
+  "497a99319916a434": {
+    "c": "基于 General Translation 构建，用于演示货币、日期和 Plural 的本地化格式处理。",
+    "i": 1,
+    "t": "p"
+  },
+  "4d8caacf68486046": "合同工",
+  "4f400f94c88fb9f4": "搜索职位…",
+  "54c1335745c5b43d": {
+    "c": "关于该职位",
+    "i": 1,
+    "t": "h2"
+  },
   "5bcd1368a0260f6b": "职位列表",
-  "61ee4c82092f7c0a": "职位列表 | 通用翻译示例",
+  "61ee4c82092f7c0a": "职位看板 | 通用版",
+  "736a53e52a588b40": "所有类型",
+  "7536bfe0d3eb0782": {
+    "c": [
+      {
+        "i": 2,
+        "k": "_gt_cost_2",
+        "v": "c"
+      },
+      " ",
+      "—",
+      " ",
+      {
+        "i": 3,
+        "k": "_gt_cost_3",
+        "v": "c"
+      }
+    ],
+    "i": 1,
+    "t": "span"
+  },
+  "7810d54298dc35ed": "设计",
+  "7a4257706b65242d": {
+    "c": "本公司招聘职位",
+    "i": 1,
+    "t": "h2"
+  },
+  "82a57ac93948d07d": "工程",
+  "b98cd94565e88793": "兼职",
+  "c1d865cc71b5d573": "所有部门",
+  "c4d6c938573efb7c": [
+    {
+      "c": "←",
+      "i": 1,
+      "t": "span"
+    },
+    " ",
+    {
+      "c": "返回所有职位",
+      "i": 2,
+      "t": "span"
+    }
+  ],
+  "ccc6a58f25df86bc": {
+    "c": [
+      {
+        "c": [
+          "薪资：",
+          {
+            "i": 3,
+            "k": "_gt_cost_3",
+            "v": "c"
+          },
+          " — ",
+          {
+            "i": 4,
+            "k": "_gt_cost_4",
+            "v": "c"
+          }
+        ],
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": [
+          "截止日期：",
+          {
+            "i": 6,
+            "k": "_gt_date_6",
+            "v": "d"
+          }
+        ],
+        "i": 5,
+        "t": "span"
+      },
+      {
+        "c": [
+          "部门：",
+          {
+            "i": 8,
+            "k": "_gt_value_8",
+            "v": "v"
+          }
+        ],
+        "i": 7,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "companies.aether-apps.culture": "我们是一个小而紧密协作的团队，重视创意和产品打磨。我们相信要打造真正能改善人们日常生活的产品。我们位于悉尼的办公室氛围轻松，并会定期组织团队活动和社交聚会。",
+  "companies.aether-apps.description": "Aether Apps 开发面向消费者的移动应用，致力于提升效率和健康。在澳大利亚和新西兰，我们的应用已拥有数以千计的用户，并正进一步拓展到更多市场。",
+  "companies.aether-apps.founded": "2020 年",
+  "companies.aether-apps.headquarters": "澳大利亚悉尼",
+  "companies.aether-apps.industry": "面向消费者的移动应用",
+  "companies.aether-apps.name": "Aether Apps",
+  "companies.aether-apps.size": "10–50 名员工",
+  "companies.cirrus-infrastructure.culture": "作为一家全远程公司，我们优先采用异步沟通和书面文档。我们的团队分布在多个时区，并积极拥抱灵活的工作方式。我们在工具链和内部开发者体验上投入巨大。",
+  "companies.cirrus-infrastructure.description": "Cirrus Infrastructure 为成长型科技公司提供托管云服务和基础设施自动化解决方案。我们帮助团队自信地部署、监控和扩展应用程序。",
+  "companies.cirrus-infrastructure.founded": "2017",
+  "companies.cirrus-infrastructure.headquarters": "远程优先办公",
+  "companies.cirrus-infrastructure.industry": "云服务",
+  "companies.cirrus-infrastructure.name": "Cirrus Infrastructure",
+  "companies.cirrus-infrastructure.size": "50–200 名员工",
+  "companies.luma-creative.culture": "设计是我们一切工作的核心。我们营造富有创意的环境，鼓励每位团队成员大胆提出想法。我们重视工作与生活的平衡，并提供灵活工时，以支持个人项目。",
+  "companies.luma-creative.description": "Luma Creative 开发的设计协作工具已被全球创意专业人士广泛使用。我们的平台将强大的设计能力与流畅的实时协作功能相结合。",
+  "companies.luma-creative.founded": "2019 年",
+  "companies.luma-creative.headquarters": "日本东京",
+  "companies.luma-creative.industry": "设计工具",
+  "companies.luma-creative.name": "Luma Creative",
+  "companies.luma-creative.size": "50–200 名员工",
+  "companies.meridian-systems.culture": "我们倡导主人翁精神、透明度和持续学习。工程团队拥有高度自主权，并被鼓励尝试新技术。我们每周举办技术分享会，并积极践行开源文化。",
+  "companies.meridian-systems.description": "Meridian Systems 开发企业级软件，帮助组织管理复杂的工作流程和数据管道。我们的平台服务于金融、医疗和物流行业的《财富》500 强企业。",
+  "companies.meridian-systems.founded": "2015",
+  "companies.meridian-systems.headquarters": "加利福尼亚州旧金山",
+  "companies.meridian-systems.industry": "企业级软件",
+  "companies.meridian-systems.name": "Meridian Systems",
+  "companies.meridian-systems.size": "200–500 名员工",
+  "companies.norden-analytics.culture": "我们的团队背景多元，具备国际化视野，并强调协作。我们重视整洁的代码、完善的测试以及深思熟虑的架构设计。我们以小而精的团队协作，层级扁平，沟通直接。",
+  "companies.norden-analytics.description": "Norden Analytics 为欧洲企业提供实时数据分析解决方案。我们的平台每天处理数十亿条事件数据，帮助客户自信地做出数据驱动的决策。",
+  "companies.norden-analytics.founded": "2018",
+  "companies.norden-analytics.headquarters": "德国柏林",
+  "companies.norden-analytics.industry": "数据分析",
+  "companies.norden-analytics.name": "Norden Analytics",
+  "companies.norden-analytics.size": "50–200 名员工",
+  "companies.vantage-research.culture": "我们专注于金融与技术的交叉领域。我们的团队由研究人员、工程师和分析师组成，紧密协作以解决各类复杂难题。我们鼓励持续学习，并支持参会交流和继续深造。",
+  "companies.vantage-research.description": "Vantage Research 将先进的机器学习与深厚的金融专业知识相结合，为机构投资者提供预测与风险分析工具。我们的模型每天处理数万亿字节的市场数据。",
+  "companies.vantage-research.founded": "2014 年",
+  "companies.vantage-research.headquarters": "英国伦敦",
+  "companies.vantage-research.industry": "金融科技",
+  "companies.vantage-research.name": "Vantage Research",
+  "companies.vantage-research.size": "200–500 名员工",
+  "e11a578909794cda": {
+    "c": [
+      {
+        "c": [
+          "行业：",
+          {
+            "i": 3,
+            "k": "_gt_value_3",
+            "v": "v"
+          }
+        ],
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": [
+          "规模：",
+          {
+            "i": 5,
+            "k": "_gt_value_5",
+            "v": "v"
+          }
+        ],
+        "i": 4,
+        "t": "span"
+      },
+      {
+        "c": [
+          "成立时间：",
+          {
+            "i": 7,
+            "k": "_gt_value_7",
+            "v": "v"
+          }
+        ],
+        "i": 6,
+        "t": "span"
+      },
+      {
+        "c": [
+          "总部：",
+          {
+            "i": 9,
+            "k": "_gt_value_9",
+            "v": "v"
+          }
+        ],
+        "i": 8,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "e45e880e9f633071": {
     "c": [
       {
@@ -92,6 +347,8 @@
     "i": 1,
     "t": "div"
   },
+  "e6f6be1b188a8c24": "筛选",
+  "eff0b9449885631b": "全职",
   "f836f4caad819654": [
     {
       "c": "开放职位",
@@ -99,39 +356,129 @@
       "t": "h2"
     },
     {
-      "c": "浏览工程、设计和数据领域的当前职位空缺。薪资、截止日期和要求均已根据您所在地区的格式进行显示。",
+      "c": "浏览工程、设计和数据岗位的当前职位空缺。薪资、截止日期和要求均已按您的语言区域格式化显示。",
       "i": 2,
       "t": "p"
     }
   ],
+  "ffa6dd3030193201": {
+    "c": "没有职位符合您的搜索条件。请尝试调整筛选条件。",
+    "i": 1,
+    "t": "p"
+  },
+  "jobs.1.benefits.0": "具有竞争力的薪酬及股权激励方案",
+  "jobs.1.benefits.1": "完善的医疗、牙科和视力保险",
+  "jobs.1.benefits.2": "灵活的远程办公政策",
+  "jobs.1.benefits.3": "年度学习与发展预算",
+  "jobs.1.benefits.4": "充足的带薪休假",
   "jobs.1.company": "Meridian Systems",
-  "jobs.1.description": "使用 React 和 TypeScript 构建和维护复杂的 Web 应用，为我们的面向客户平台主导架构决策。",
+  "jobs.1.companySlug": "meridian-systems",
+  "jobs.1.department": "工程",
+  "jobs.1.description": "使用 React 和 TypeScript 构建和维护复杂的 Web 应用程序，牵头制定面向客户平台的架构决策。",
+  "jobs.1.fullDescription": "我们正在招聘一名高级前端工程师加入持续发展的团队。你将负责使用 React 和 TypeScript 构建和维护复杂的 Web 应用，为我们的面向客户的平台承担关键架构决策，并指导初级工程师。你将与产品设计师和后端工程师紧密合作，交付精致且高性能的用户体验。",
   "jobs.1.location": "美国加利福尼亚州旧金山",
+  "jobs.1.requirements.0": "5 年以上 React 和 TypeScript 开发经验",
+  "jobs.1.requirements.1": "对 Web 性能优化有深入理解",
+  "jobs.1.requirements.2": "具备使用 Redux 或 Zustand 等状态管理库的经验",
+  "jobs.1.requirements.3": "熟悉 CI/CD 流水线和自动化测试",
+  "jobs.1.requirements.4": "优秀的沟通与协作能力",
+  "jobs.1.slug": "senior-frontend-engineer",
   "jobs.1.title": "高级前端工程师",
   "jobs.1.type": "全职",
+  "jobs.2.benefits.0": "提供迁居柏林的搬迁支持",
+  "jobs.2.benefits.1": "30 天带薪休假",
+  "jobs.2.benefits.2": "公共交通补贴",
+  "jobs.2.benefits.3": "每周团队午餐",
+  "jobs.2.benefits.4": "居家办公设备补贴",
   "jobs.2.company": "Norden Analytics",
-  "jobs.2.description": "使用 Go 设计和实现可扩展的微服务，参与构建每天处理数百万次请求的实时数据处理流水线。",
+  "jobs.2.companySlug": "norden-analytics",
+  "jobs.2.department": "工程",
+  "jobs.2.description": "使用 Go 设计和实现可扩展的微服务，并构建每天可处理数百万次请求的实时数据处理流水线。",
+  "jobs.2.fullDescription": "加入 Norden Analytics，担任后端开发工程师，帮助我们构建新一代实时数据处理基础设施。你将使用 Go 设计和实现可扩展的微服务，参与事件驱动架构的设计与落地，并优化每天要处理数百万次请求的系统。我们的团队重视整洁的代码、完善的测试以及持续改进。",
   "jobs.2.location": "德国柏林",
+  "jobs.2.requirements.0": "3 年以上使用 Go 或类似系统编程语言的开发经验",
+  "jobs.2.requirements.1": "具备设计和构建 RESTful API 和微服务的实践经验",
+  "jobs.2.requirements.2": "了解 Kafka 或 RabbitMQ 等消息队列",
+  "jobs.2.requirements.3": "熟悉容器化技术及编排工具",
+  "jobs.2.requirements.4": "理解数据库设计并掌握查询优化",
+  "jobs.2.slug": "backend-developer",
   "jobs.2.title": "后端开发工程师",
   "jobs.2.type": "全职",
+  "jobs.3.benefits.0": "弹性工作时间",
+  "jobs.3.benefits.1": "年度设计大会参会机会",
+  "jobs.3.benefits.2": "配备创意设计工具和软件",
+  "jobs.3.benefits.3": "身心健康关怀计划",
+  "jobs.3.benefits.4": "工作满三年可享休假年（Sabbatical）",
   "jobs.3.company": "Luma Creative",
-  "jobs.3.description": "为我们的设计协作工具打造优秀的用户体验。你将负责用户调研、原型设计，并与工程团队紧密合作，一起交付打磨精良的界面。",
+  "jobs.3.companySlug": "luma-creative",
+  "jobs.3.department": "设计",
+  "jobs.3.description": "为我们的设计协作工具打造出色的用户体验。负责用户研究、原型设计，并与工程团队紧密合作，交付打磨精良的界面。",
+  "jobs.3.fullDescription": "Luma Creative 正在招聘一名产品设计师，负责塑造我们设计协作工具的用户体验，该工具被全球数千名创意专业人士使用。你将负责开展用户研究、创建线框和原型、定义交互模式，并与工程团队紧密协作，交付精致且兼顾无障碍体验的界面。我们重视在美感与可用性之间取得平衡的深思熟虑的设计。",
   "jobs.3.location": "日本东京",
+  "jobs.3.requirements.0": "4 年以上产品设计相关工作经验",
+  "jobs.3.requirements.1": "熟练使用 Figma 或类似设计工具",
+  "jobs.3.requirements.2": "具备能够体现以用户为中心设计流程的优秀作品集",
+  "jobs.3.requirements.3": "具备开展用户研究和可用性测试的实际经验",
+  "jobs.3.requirements.4": "掌握无障碍标准及最佳实践",
+  "jobs.3.slug": "产品设计师",
   "jobs.3.title": "产品设计师",
   "jobs.3.type": "全职",
+  "jobs.4.benefits.0": "支持完全远程办公，可在任意地点工作",
+  "jobs.4.benefits.1": "具有市场竞争力的合同薪酬",
+  "jobs.4.benefits.2": "弹性工作时间",
+  "jobs.4.benefits.3": "可参与云相关认证项目",
+  "jobs.4.benefits.4": "年度团队团建活动",
   "jobs.4.company": "Cirrus Infrastructure",
-  "jobs.4.description": "在 AWS 和 GCP 上管理云基础设施，自动化部署流水线，并提升全球服务网络的系统可靠性。",
+  "jobs.4.companySlug": "cirrus-infrastructure",
+  "jobs.4.department": "基础设施",
+  "jobs.4.description": "在 AWS 和 GCP 上管理云基础设施，自动化部署流水线，并提升覆盖全球的服务网络的系统可靠性。",
+  "jobs.4.fullDescription": "Cirrus Infrastructure 正在招聘一名 DevOps 工程师，负责管理和改进我们在 AWS 和 GCP 上的云基础设施。你将负责自动化部署流水线，实施监控和警报系统，并提升我们全球服务网络的可靠性。这是一个合同制职位，有续约的可能，并且可以在世界任何地方完全远程办公。",
   "jobs.4.location": "远程",
+  "jobs.4.requirements.0": "6 年以上 DevOps 或网站可靠性工程（Site Reliability Engineering, SRE）经验",
+  "jobs.4.requirements.1": "在 AWS 或 GCP 等云平台方面具有深厚专业能力",
+  "jobs.4.requirements.2": "具有使用 Terraform 等基础设施即代码（Infrastructure as Code）工具的经验",
+  "jobs.4.requirements.3": "具备扎实的 Python 或 Bash 脚本编写能力",
+  "jobs.4.requirements.4": "熟悉 Prometheus、Grafana 等监控工具",
+  "jobs.4.requirements.5": "具有在生产环境中使用 Kubernetes 的经验",
+  "jobs.4.slug": "devops-engineer",
   "jobs.4.title": "DevOps 工程师",
   "jobs.4.type": "合同制",
+  "jobs.5.benefits.0": "绩效奖金",
+  "jobs.5.benefits.1": "私人医疗保险",
+  "jobs.5.benefits.2": "位于伦敦市中心的办公室，并提供混合办公选项",
+  "jobs.5.benefits.3": "会议与培训预算",
+  "jobs.5.benefits.4": "公司养老金计划",
   "jobs.5.company": "Vantage Research",
-  "jobs.5.description": "开发用于金融预测的机器学习模型。分析大规模数据集，并向整个组织内的相关利益方展示你的分析结果。",
+  "jobs.5.companySlug": "vantage-research",
+  "jobs.5.department": "数据科学",
+  "jobs.5.description": "开发用于财务预测的机器学习模型，分析海量数据集，并向整个组织的相关方汇报分析结果。",
+  "jobs.5.fullDescription": "Vantage Research 正在招聘一名数据科学家，负责开发用于财务预测和风险分析的机器学习模型。你将处理大型且复杂的数据集，构建预测模型，并向全公司各类利益相关方呈现可执行的洞察。我们的数据科学团队处在金融与技术的交汇点，专注解决直接影响投资决策的棘手问题。",
   "jobs.5.location": "英国伦敦",
+  "jobs.5.requirements.0": "4 年及以上数据科学或机器学习领域相关工作经验",
+  "jobs.5.requirements.1": "精通 Python 和 SQL",
+  "jobs.5.requirements.2": "具备使用机器学习框架（例如 scikit-learn、TensorFlow 或 PyTorch）的经验",
+  "jobs.5.requirements.3": "熟悉统计建模和时间序列分析",
+  "jobs.5.requirements.4": "能够向非技术受众清晰传达技术结论",
+  "jobs.5.slug": "data-scientist",
   "jobs.5.title": "数据科学家",
   "jobs.5.type": "全职",
+  "jobs.6.benefits.0": "灵活的兼职工作时间",
+  "jobs.6.benefits.1": "位于悉尼的现代化办公室，享有海港景观",
+  "jobs.6.benefits.2": "提供硬件设备和软件",
+  "jobs.6.benefits.3": "职业发展资助",
+  "jobs.6.benefits.4": "团队社交活动",
   "jobs.6.company": "Aether Apps",
-  "jobs.6.description": "使用 React Native 构建跨平台移动应用。与设计师密切合作，在 iOS 和 Android 平台上打造流畅、高性能的用户体验。",
+  "jobs.6.companySlug": "aether-apps",
+  "jobs.6.department": "工程开发",
+  "jobs.6.description": "使用 React Native 构建跨平台移动应用。与设计师合作，在 iOS 和 Android 上打造流畅高性能的体验。",
+  "jobs.6.fullDescription": "Aether Apps 正在招聘一名兼职移动开发工程师，使用 React Native 构建跨平台移动应用。你将与设计师和后端工程师紧密合作，在 iOS 和 Android 上打造流畅、高性能的用户体验。该岗位非常适合希望在灵活工时下参与面向消费者产品开发的人，这些产品将服务于整个澳大利亚和新西兰的数千名用户。",
   "jobs.6.location": "澳大利亚悉尼",
-  "jobs.6.title": "移动开发工程师",
+  "jobs.6.requirements.0": "4 年及以上移动开发经验",
+  "jobs.6.requirements.1": "熟练掌握 React Native 和 TypeScript",
+  "jobs.6.requirements.2": "具有将应用发布到 App Store 和 Google Play 的经验",
+  "jobs.6.requirements.3": "掌握移动端 UI/UX 设计最佳实践",
+  "jobs.6.requirements.4": "熟悉原生模块和各平台的 API",
+  "jobs.6.slug": "mobile-developer",
+  "jobs.6.title": "移动端开发工程师",
   "jobs.6.type": "兼职"
 }

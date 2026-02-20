@@ -1,13 +1,124 @@
 {
-  "0bdf666bd8d01228": "Un job board multilingue présentant des salaires, des dates limites de candidature et des nombres d’exigences adaptés à chaque langue et région.",
-  "497a99319916a434": {
-    "c": "Construit avec General Translation pour démontrer le formatage adapté aux paramètres régionaux des devises, des dates et des pluriels.",
+  "0018cad52ae5d7d4": {
+    "c": "Avantages",
+    "i": 1,
+    "t": "h2"
+  },
+  "0bdf666bd8d01228": "Un tableau d’offres d’emploi multilingue avec salaires, dates limites et nombres d’exigences sensibles à la locale.",
+  "12141f7a3bb3dc2c": {
+    "c": "Culture",
+    "i": 1,
+    "t": "h2"
+  },
+  "1c4f1865fd2cebeb": {
+    "c": "À propos",
+    "i": 1,
+    "t": "h2"
+  },
+  "220eb917ee794996": [
+    {
+      "c": "Postuler à ce poste",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "Intéressé(e) par ce rôle ? Il s'agit d'une application de démonstration, mais sur un vrai tableau d'offres d'emploi, vous soumettriez votre candidature ici.",
+      "i": 2,
+      "t": "p"
+    },
+    {
+      "c": "Soumettre la candidature",
+      "i": 3,
+      "t": "button"
+    }
+  ],
+  "33c100e3b18b2005": {
+    "c": "À propos de l'entreprise",
+    "i": 1,
+    "t": "h2"
+  },
+  "41e3306ddcb60994": {
+    "c": "Ceci est un exemple d'application développée avec General Translation pour illustrer l'internationalisation. Ces offres d'emploi ne sont pas réelles.",
     "i": 1,
     "t": "p"
   },
-  "5bcd1368a0260f6b": "Tableau d’offres d’emploi",
-  "61ee4c82092f7c0a": "Job Board | Exemple de traduction globale",
-  "e45e880e9f633071": {
+  "43309c30697915a3": [
+    {
+      "c": "Voir le profil de l'entreprise",
+      "i": 1,
+      "t": "span"
+    },
+    " ",
+    {
+      "c": "→",
+      "i": 2,
+      "t": "span"
+    }
+  ],
+  "43b1ff0da173f934": "Infrastructure",
+  "46e092f48cb4bb10": "Data science",
+  "4730f0952f7a36fe": {
+    "c": "Prérequis",
+    "i": 1,
+    "t": "h2"
+  },
+  "497a99319916a434": {
+    "c": "Conçu avec General Translation pour démontrer le formatage adapté aux paramètres régionaux des devises, des dates et des pluriels.",
+    "i": 1,
+    "t": "p"
+  },
+  "4d8caacf68486046": "Contrat",
+  "4f400f94c88fb9f4": "Rechercher un poste…",
+  "54c1335745c5b43d": {
+    "c": "À propos du poste",
+    "i": 1,
+    "t": "h2"
+  },
+  "5bcd1368a0260f6b": "Offres d’emploi",
+  "61ee4c82092f7c0a": "Tableau d’offres d’emploi | Traduction générale",
+  "736a53e52a588b40": "Tous les types de poste",
+  "7536bfe0d3eb0782": {
+    "c": [
+      {
+        "i": 2,
+        "k": "_gt_cost_2",
+        "v": "c"
+      },
+      " ",
+      "—",
+      " ",
+      {
+        "i": 3,
+        "k": "_gt_cost_3",
+        "v": "c"
+      }
+    ],
+    "i": 1,
+    "t": "span"
+  },
+  "7810d54298dc35ed": "Design",
+  "7a4257706b65242d": {
+    "c": "Postes ouverts dans cette entreprise",
+    "i": 1,
+    "t": "h2"
+  },
+  "82a57ac93948d07d": "Ingénierie",
+  "b98cd94565e88793": "Temps partiel",
+  "c1d865cc71b5d573": "Tous les services",
+  "c4d6c938573efb7c": [
+    {
+      "c": "←",
+      "i": 1,
+      "t": "span"
+    },
+    " ",
+    {
+      "c": "Retour à tous les postes",
+      "i": 2,
+      "t": "span"
+    }
+  ],
+  "ccc6a58f25df86bc": {
     "c": [
       {
         "c": [
@@ -30,6 +141,150 @@
       {
         "c": [
           "Date limite : ",
+          {
+            "i": 6,
+            "k": "_gt_date_6",
+            "v": "d"
+          }
+        ],
+        "i": 5,
+        "t": "span"
+      },
+      {
+        "c": [
+          "Département : ",
+          {
+            "i": 8,
+            "k": "_gt_value_8",
+            "v": "v"
+          }
+        ],
+        "i": 7,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "companies.aether-apps.culture": "Nous sommes une petite équipe soudée qui valorise la créativité et le travail de qualité. Nous croyons en la création de produits qui améliorent concrètement le quotidien des gens. Notre bureau de Sydney offre une atmosphère détendue, avec des activités d’équipe et des événements sociaux réguliers.",
+  "companies.aether-apps.description": "Aether Apps développe des applications mobiles grand public axées sur la productivité et le bien-être. Nos apps sont utilisées par des milliers de personnes en Australie et en Nouvelle-Zélande, et nous nous déployons sur de nouveaux marchés.",
+  "companies.aether-apps.founded": "2020",
+  "companies.aether-apps.headquarters": "Sydney, Australie",
+  "companies.aether-apps.industry": "Applications mobiles grand public",
+  "companies.aether-apps.name": "Aether Apps",
+  "companies.aether-apps.size": "10-50 employés",
+  "companies.cirrus-infrastructure.culture": "En tant qu'entreprise entièrement distribuée, nous privilégions la communication asynchrone et la documentation écrite. Notre équipe est répartie sur plusieurs fuseaux horaires et nous valorisons la flexibilité. Nous investissons massivement dans nos outils internes et dans l'expérience développeur.",
+  "companies.cirrus-infrastructure.description": "Cirrus Infrastructure fournit des services cloud gérés et l'automatisation de l'infrastructure pour les entreprises technologiques en croissance. Nous aidons les équipes à déployer, superviser et mettre leurs applications à l'échelle en toute confiance.",
+  "companies.cirrus-infrastructure.founded": "2017",
+  "companies.cirrus-infrastructure.headquarters": "Télétravail avant tout",
+  "companies.cirrus-infrastructure.industry": "Services cloud",
+  "companies.cirrus-infrastructure.name": "Cirrus Infrastructure",
+  "companies.cirrus-infrastructure.size": "50 à 200 employés",
+  "companies.luma-creative.culture": "Le design est au cœur de tout ce que nous faisons. Nous favorisons un environnement créatif où chaque membre de l’équipe est encouragé à proposer des idées. Nous accordons la priorité à l’équilibre vie professionnelle / vie privée et offrons des horaires flexibles pour soutenir les projets personnels.",
+  "companies.luma-creative.description": "Luma Creative développe des outils de collaboration pour la conception, utilisés par des professionnels de la création du monde entier. Notre plateforme associe de puissantes fonctionnalités de design à des fonctions de collaboration en temps réel parfaitement fluides.",
+  "companies.luma-creative.founded": "2019",
+  "companies.luma-creative.headquarters": "Tokyo, Japon",
+  "companies.luma-creative.industry": "Outils de conception",
+  "companies.luma-creative.name": "Luma Creative",
+  "companies.luma-creative.size": "50–200 employés",
+  "companies.meridian-systems.culture": "Nous croyons en la responsabilisation, la transparence et l’apprentissage continu. Nos équipes d’ingénierie bénéficient d’une large autonomie et sont encouragées à expérimenter de nouvelles technologies. Nous organisons chaque semaine des présentations techniques et cultivons une solide culture open source.",
+  "companies.meridian-systems.description": "Meridian Systems développe des logiciels d’entreprise qui aident les organisations à gérer des flux de travail complexes et des pipelines de données. Notre plateforme sert des entreprises du Fortune 500 dans la finance, la santé et la logistique.",
+  "companies.meridian-systems.founded": "2015",
+  "companies.meridian-systems.headquarters": "San Francisco, Californie",
+  "companies.meridian-systems.industry": "Logiciels d’entreprise",
+  "companies.meridian-systems.name": "Meridian Systems",
+  "companies.meridian-systems.size": "200 à 500 employés",
+  "companies.norden-analytics.culture": "Notre équipe est internationale et collaborative. Nous privilégions un code propre, des tests approfondis et une architecture réfléchie. Nous travaillons en petites équipes ciblées, avec une hiérarchie horizontale et une communication directe.",
+  "companies.norden-analytics.description": "Norden Analytics fournit des solutions d’analyse de données en temps réel pour les entreprises européennes. Notre plateforme traite des milliards d’événements par jour, permettant à nos clients de prendre des décisions fondées sur les données en toute confiance.",
+  "companies.norden-analytics.founded": "2018",
+  "companies.norden-analytics.headquarters": "Berlin, Allemagne",
+  "companies.norden-analytics.industry": "Analyse de données",
+  "companies.norden-analytics.name": "Norden Analytics",
+  "companies.norden-analytics.size": "50 à 200 employés",
+  "companies.vantage-research.culture": "Nous opérons au croisement de la finance et de la technologie. Notre équipe réunit des chercheurs, des ingénieurs et des analystes qui collaborent étroitement pour résoudre des problèmes complexes. Nous encourageons l’apprentissage continu et soutenons la participation à des conférences ainsi que la poursuite de formations continues.",
+  "companies.vantage-research.description": "Vantage Research allie apprentissage automatique avancé et expertise financière approfondie pour fournir aux investisseurs institutionnels des outils de prévisions et d’analyse des risques. Nos modèles traitent chaque jour des téraoctets de données de marché.",
+  "companies.vantage-research.founded": "2014",
+  "companies.vantage-research.headquarters": "Londres, Royaume-Uni",
+  "companies.vantage-research.industry": "Technologie financière",
+  "companies.vantage-research.name": "Vantage Research",
+  "companies.vantage-research.size": "200 à 500 employés",
+  "e11a578909794cda": {
+    "c": [
+      {
+        "c": [
+          "Secteur : ",
+          {
+            "i": 3,
+            "k": "_gt_value_3",
+            "v": "v"
+          }
+        ],
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": [
+          "Taille : ",
+          {
+            "i": 5,
+            "k": "_gt_value_5",
+            "v": "v"
+          }
+        ],
+        "i": 4,
+        "t": "span"
+      },
+      {
+        "c": [
+          "Fondée : ",
+          {
+            "i": 7,
+            "k": "_gt_value_7",
+            "v": "v"
+          }
+        ],
+        "i": 6,
+        "t": "span"
+      },
+      {
+        "c": [
+          "Siège social : ",
+          {
+            "i": 9,
+            "k": "_gt_value_9",
+            "v": "v"
+          }
+        ],
+        "i": 8,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "e45e880e9f633071": {
+    "c": [
+      {
+        "c": [
+          "Salaire : ",
+          {
+            "i": 3,
+            "k": "_gt_cost_3",
+            "v": "c"
+          },
+          " — ",
+          {
+            "i": 4,
+            "k": "_gt_cost_4",
+            "v": "c"
+          }
+        ],
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": [
+          "Échéance : ",
           {
             "i": 6,
             "k": "_gt_date_6",
@@ -104,6 +359,8 @@
     "i": 1,
     "t": "div"
   },
+  "e6f6be1b188a8c24": "Filtrer",
+  "eff0b9449885631b": "Temps plein",
   "f836f4caad819654": [
     {
       "c": "Postes ouverts",
@@ -111,39 +368,129 @@
       "t": "h2"
     },
     {
-      "c": "Parcourez les offres d'emploi actuelles dans les domaines de l'ingénierie, du design et des données. Les salaires, les délais et les exigences sont formatés selon votre région.",
+      "c": "Parcourez les offres d'emploi actuelles en ingénierie, design et données. Les salaires, délais et exigences sont formatés selon votre région.",
       "i": 2,
       "t": "p"
     }
   ],
+  "ffa6dd3030193201": {
+    "c": "Aucun poste ne correspond à vos critères de recherche. Essayez d'ajuster vos filtres.",
+    "i": 1,
+    "t": "p"
+  },
+  "jobs.1.benefits.0": "Salaire compétitif et plan d’actions",
+  "jobs.1.benefits.1": "Assurance santé complète, incluant soins dentaires et optiques",
+  "jobs.1.benefits.2": "Politique de télétravail flexible",
+  "jobs.1.benefits.3": "Budget annuel dédié à la formation et au développement",
+  "jobs.1.benefits.4": "Congés payés généreux",
   "jobs.1.company": "Meridian Systems",
-  "jobs.1.description": "Développer et maintenir des applications web complexes avec React et TypeScript. Prendre les décisions d’architecture pour notre plateforme orientée client.",
-  "jobs.1.location": "San Francisco, Californie",
+  "jobs.1.companySlug": "meridian-systems",
+  "jobs.1.department": "Ingénierie",
+  "jobs.1.description": "Concevoir, développer et maintenir des applications web complexes en React et TypeScript. Prendre des décisions d’architecture pour notre plateforme client.",
+  "jobs.1.fullDescription": "Nous recherchons un·e Ingénieur·e Frontend senior pour rejoindre notre équipe en pleine croissance. Vous serez responsable de concevoir et de maintenir des applications web complexes avec React et TypeScript, de piloter les décisions architecturales pour notre plateforme destinée aux clients et d’assurer le mentorat des développeurs moins expérimentés. Vous collaborerez étroitement avec les product designers et les ingénieurs backend afin de livrer des expériences utilisateur soignées et performantes.",
+  "jobs.1.location": "San Francisco, CA",
+  "jobs.1.requirements.0": "Plus de 5 ans d’expérience sur React et TypeScript",
+  "jobs.1.requirements.1": "Très bonne maîtrise de l’optimisation des performances web",
+  "jobs.1.requirements.2": "Expérience avec des bibliothèques de gestion d’état telles que Redux ou Zustand",
+  "jobs.1.requirements.3": "Bonne connaissance des pipelines CI/CD et des tests automatisés",
+  "jobs.1.requirements.4": "Excellentes capacités de communication et de collaboration",
+  "jobs.1.slug": "ingenieur-frontend-senior",
   "jobs.1.title": "Ingénieur·e front-end senior",
   "jobs.1.type": "Temps plein",
+  "jobs.2.benefits.0": "Aide à la relocation pour Berlin",
+  "jobs.2.benefits.1": "30 jours de congés payés",
+  "jobs.2.benefits.2": "Participation aux frais de transport en commun",
+  "jobs.2.benefits.3": "Déjeuners d’équipe hebdomadaires",
+  "jobs.2.benefits.4": "Budget pour l’équipement du bureau à domicile",
   "jobs.2.company": "Norden Analytics",
-  "jobs.2.description": "Concevoir et implémenter des microservices évolutifs en Go. Travailler sur des pipelines de traitement de données en temps réel qui gèrent des millions de requêtes chaque jour.",
+  "jobs.2.companySlug": "norden-analytics",
+  "jobs.2.department": "Ingénierie",
+  "jobs.2.description": "Concevoir et implémenter des microservices évolutifs en Go. Travailler sur des pipelines de traitement de données en temps réel capables de gérer des millions de requêtes par jour.",
+  "jobs.2.fullDescription": "Rejoignez Norden Analytics en tant que développeur backend et contribuez à bâtir la prochaine génération de notre infrastructure de traitement de données en temps réel. Vous concevrez et implémenterez des microservices évolutifs en Go, travaillerez sur des architectures événementielles et optimiserez des systèmes traitant des millions de requêtes par jour. Notre équipe accorde une grande importance à la qualité du code, aux tests approfondis et à l'amélioration continue.",
   "jobs.2.location": "Berlin, Allemagne",
-  "jobs.2.title": "Développeur·euse back-end",
+  "jobs.2.requirements.0": "Plus de 3 ans d’expérience avec Go ou des langages de programmation systèmes similaires",
+  "jobs.2.requirements.1": "Expérience en conception et développement d’API RESTful et de microservices",
+  "jobs.2.requirements.2": "Connaissance des systèmes de files de messages tels que Kafka ou RabbitMQ",
+  "jobs.2.requirements.3": "Familiarité avec les outils de conteneurisation de conteneurs et d’orchestration",
+  "jobs.2.requirements.4": "Bonne compréhension de la conception de bases de données et de l’optimisation des requêtes",
+  "jobs.2.slug": "backend-developer",
+  "jobs.2.title": "Développeur back-end",
   "jobs.2.type": "Temps plein",
+  "jobs.3.benefits.0": "Horaires de travail flexibles",
+  "jobs.3.benefits.1": "Participation annuelle à une conférence de design",
+  "jobs.3.benefits.2": "Outils et logiciels créatifs fournis",
+  "jobs.3.benefits.3": "Programmes de santé et de bien-être",
+  "jobs.3.benefits.4": "Congé sabbatique après trois ans d’ancienneté",
   "jobs.3.company": "Luma Creative",
-  "jobs.3.description": "Façonne l’expérience utilisateur de notre outil de collaboration pour le design. Effectue des recherches, crée des prototypes et collabore étroitement avec l’équipe d’ingénierie pour livrer des interfaces abouties.",
+  "jobs.3.companySlug": "luma-creative",
+  "jobs.3.department": "Design",
+  "jobs.3.description": "Façonnez l’expérience utilisateur de notre outil de collaboration pour le design. Menez des recherches utilisateurs, créez des prototypes et travaillez en étroite collaboration avec l’équipe d’ingénierie pour livrer des interfaces soignées.",
+  "jobs.3.fullDescription": "Luma Creative recherche un·e Product Designer pour façonner l’expérience utilisateur de notre outil de collaboration dédié au design, utilisé par des milliers de professionnel·le·s de la création dans le monde entier. Vous mènerez des recherches utilisateurs, créerez des wireframes et des prototypes, définirez des modèles d’interaction et travaillerez en étroite collaboration avec l’équipe d’ingénierie pour livrer des interfaces soignées et accessibles. Nous accordons de l’importance à un design réfléchi, qui concilie esthétique et ergonomie.",
   "jobs.3.location": "Tokyo, Japon",
+  "jobs.3.requirements.0": "Au moins 4 ans d’expérience en design produit",
+  "jobs.3.requirements.1": "Maîtrise de Figma ou d’outils de design similaires",
+  "jobs.3.requirements.2": "Solide portfolio démontrant une démarche de conception centrée sur l’utilisateur",
+  "jobs.3.requirements.3": "Expérience en recherche utilisateur et en tests d’utilisabilité",
+  "jobs.3.requirements.4": "Compréhension des normes et bonnes pratiques en matière d’accessibilité",
+  "jobs.3.slug": "designer-produit",
   "jobs.3.title": "Designer produit",
   "jobs.3.type": "Temps plein",
+  "jobs.4.benefits.0": "Travail 100 % à distance depuis n’importe où",
+  "jobs.4.benefits.1": "TJM compétitifs",
+  "jobs.4.benefits.2": "Horaires flexibles",
+  "jobs.4.benefits.3": "Accès à des programmes de certification cloud",
+  "jobs.4.benefits.4": "Séminaire annuel de l’équipe",
   "jobs.4.company": "Cirrus Infrastructure",
-  "jobs.4.description": "Gère l’infrastructure cloud sur AWS et GCP. Automatise les pipelines de déploiement et améliore la fiabilité du système à l’échelle d’un réseau mondial de services.",
+  "jobs.4.companySlug": "cirrus-infrastructure",
+  "jobs.4.department": "Infrastructure",
+  "jobs.4.description": "Gérer l’infrastructure cloud sur AWS et GCP, automatiser les pipelines de déploiement et améliorer la fiabilité du système sur un réseau mondial de services.",
+  "jobs.4.fullDescription": "Cirrus Infrastructure recrute un·e Ingénieur·e DevOps pour gérer et améliorer notre infrastructure cloud sur AWS et GCP. Vous automatiserez les pipelines de déploiement, mettrez en place des systèmes de supervision et d’alerte, et améliorerez la fiabilité de notre réseau mondial de services. Il s’agit d’un poste contractuel, avec possibilité de prolongation, entièrement à distance et ouvert à des candidat·e·s du monde entier.",
   "jobs.4.location": "À distance",
+  "jobs.4.requirements.0": "Plus de 6 ans d’expérience en DevOps ou en ingénierie de la fiabilité des sites (Site Reliability Engineering)",
+  "jobs.4.requirements.1": "Excellente maîtrise des services cloud AWS ou GCP",
+  "jobs.4.requirements.2": "Expérience des outils d’infrastructure as code comme Terraform",
+  "jobs.4.requirements.3": "Solides compétences en scripting Python ou Bash",
+  "jobs.4.requirements.4": "Bonne connaissance des outils de supervision comme Prometheus et Grafana",
+  "jobs.4.requirements.5": "Expérience de Kubernetes en environnement de production",
+  "jobs.4.slug": "devops-engineer",
   "jobs.4.title": "Ingénieur DevOps",
   "jobs.4.type": "Contrat",
+  "jobs.5.benefits.0": "Primes liées aux performances",
+  "jobs.5.benefits.1": "Assurance santé privée",
+  "jobs.5.benefits.2": "Bureau à Central London, avec possibilités de travail hybride",
+  "jobs.5.benefits.3": "Budget pour conférences et formations",
+  "jobs.5.benefits.4": "Régime de retraite d’entreprise",
   "jobs.5.company": "Vantage Research",
-  "jobs.5.description": "Concevoir des modèles de machine learning pour la prévision financière. Analyser de grands volumes de données et présenter les résultats aux parties prenantes dans toute l’organisation.",
+  "jobs.5.companySlug": "vantage-research",
+  "jobs.5.department": "Science des données",
+  "jobs.5.description": "Développer des modèles de machine learning pour la prévision financière ; analyser de grands ensembles de données et présenter les résultats aux parties prenantes dans l’ensemble de l’organisation.",
+  "jobs.5.fullDescription": "Vantage Research recherche un·e data scientist pour développer des modèles de machine learning dédiés à la prévision financière et à l’analyse des risques. Vous travaillerez sur de grands ensembles de données volumineux et complexes, construirez des modèles prédictifs et présenterez des recommandations concrètes et exploitables aux parties prenantes dans toute l’organisation. Notre équipe data science opère à l’intersection de la finance et de la technologie, en résolvant des problèmes complexes qui ont un impact direct sur les décisions d’investissement.",
   "jobs.5.location": "Londres, Royaume-Uni",
+  "jobs.5.requirements.0": "Au moins 4 ans d’expérience en data science ou en apprentissage automatique",
+  "jobs.5.requirements.1": "Excellente maîtrise de Python et de SQL",
+  "jobs.5.requirements.2": "Expérience des frameworks de machine learning tels que scikit-learn, TensorFlow ou PyTorch",
+  "jobs.5.requirements.3": "Connaissances en modélisation statistique et en analyse de séries temporelles",
+  "jobs.5.requirements.4": "Capacité à communiquer des résultats techniques à un public non technique",
+  "jobs.5.slug": "scientifique-des-donnees",
   "jobs.5.title": "Data scientist",
   "jobs.5.type": "Temps plein",
+  "jobs.6.benefits.0": "Horaires flexibles à temps partiel",
+  "jobs.6.benefits.1": "Bureaux modernes à Sydney avec vue sur le port",
+  "jobs.6.benefits.2": "Équipement et logiciels fournis",
+  "jobs.6.benefits.3": "Budget dédié au développement professionnel",
+  "jobs.6.benefits.4": "Événements sociaux d’équipe",
   "jobs.6.company": "Aether Apps",
-  "jobs.6.description": "Développer des applications mobiles multiplateforme avec React Native. Collaborer avec les designers pour proposer des expériences fluides et performantes sur iOS et Android.",
+  "jobs.6.companySlug": "aether-apps",
+  "jobs.6.department": "Ingénierie",
+  "jobs.6.description": "Créez des applications mobiles multiplateforme avec React Native. Collaborez avec les designers pour offrir des expériences fluides et performantes sur iOS et Android.",
+  "jobs.6.fullDescription": "Aether Apps recrute un·e développeur·se d’applications mobiles à temps partiel pour concevoir et développer des applications multiplateformes avec React Native. Vous collaborerez étroitement avec des designers et des ingénieurs backend pour offrir des expériences fluides et performantes sur iOS et Android. Ce poste est idéal pour une personne recherchant des horaires flexibles tout en travaillant sur des produits grand public utilisés par des milliers de personnes en Australie et en Nouvelle-Zélande.",
   "jobs.6.location": "Sydney, Australie",
+  "jobs.6.requirements.0": "Plus de 4 ans d’expérience en développement mobile",
+  "jobs.6.requirements.1": "Excellente maîtrise de React Native et de TypeScript",
+  "jobs.6.requirements.2": "Expérience de la publication d’applications sur l’App Store et Google Play",
+  "jobs.6.requirements.3": "Solide compréhension des bonnes pratiques d’interface et d’expérience utilisateur sur mobile",
+  "jobs.6.requirements.4": "Bonne connaissance des modules natifs et des API propres à chaque plateforme",
+  "jobs.6.slug": "mobile-developer",
   "jobs.6.title": "Développeur mobile",
   "jobs.6.type": "Temps partiel"
 }

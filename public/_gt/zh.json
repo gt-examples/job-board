@@ -1,12 +1,271 @@
 {
-  "0bdf666bd8d01228": "一个支持多语言的职位列表示例，薪资、截止日期和要求条目数都会根据本地化设置智能展示。",
+  "07a7e803482b6573": "查看公司简介",
+  "0bdf666bd8d01228": "一个多语言的职位看板，支持根据语言环境显示薪资、截止日期和要求数量。",
+  "12141f7a3bb3dc2c": {
+    "c": "文化",
+    "i": 1,
+    "t": "h2"
+  },
+  "19f0d1f54092784a": {
+    "c": "福利与待遇",
+    "i": 1,
+    "t": "h2"
+  },
+  "1c4f1865fd2cebeb": {
+    "c": "关于",
+    "i": 1,
+    "t": "h2"
+  },
+  "24a29150f778abb9": {
+    "c": [
+      "申请职位：",
+      {
+        "c": {
+          "i": 3,
+          "k": "_gt_value_3",
+          "v": "v"
+        },
+        "i": 2,
+        "t": "span"
+      },
+      "，所在公司：",
+      {
+        "c": {
+          "i": 5,
+          "k": "_gt_value_5",
+          "v": "v"
+        },
+        "i": 4,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "3b23ecfa8d741c04": {
+    "c": "开放职位",
+    "i": 1,
+    "t": "h2"
+  },
+  "426930c94fde1628": "总部",
+  "42b105e9589791af": {
+    "c": "← 所有职位",
+    "i": 1,
+    "t": "span"
+  },
   "497a99319916a434": {
     "c": "基于 General Translation 构建，用于演示货币、日期和复数形式的本地化格式处理。",
     "i": 1,
     "t": "p"
   },
-  "5bcd1368a0260f6b": "职位列表",
-  "61ee4c82092f7c0a": "职位列表 | 通用翻译示例",
+  "57de0352acc4483c": {
+    "c": "技术栈",
+    "i": 1,
+    "t": "h3"
+  },
+  "5bcd1368a0260f6b": "职位看板",
+  "61ee4c82092f7c0a": "职位看板 | 通用翻译示例",
+  "6b006ed446446388": "创立于",
+  "767a98717fe791c1": {
+    "c": "← 返回职位",
+    "i": 1,
+    "t": "span"
+  },
+  "7872b2c7f53b43b5": {
+    "c": "将文件拖放到此处，或点击浏览",
+    "i": 1,
+    "t": "p"
+  },
+  "8db9949ad10033e7": {
+    "c": [
+      {
+        "c": [
+          "薪资：",
+          {
+            "i": 3,
+            "k": "_gt_cost_3",
+            "v": "c"
+          },
+          " — ",
+          {
+            "i": 4,
+            "k": "_gt_cost_4",
+            "v": "c"
+          }
+        ],
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": [
+          "截止日期：",
+          {
+            "i": 6,
+            "k": "_gt_date_6",
+            "v": "d"
+          }
+        ],
+        "i": 5,
+        "t": "span"
+      },
+      {
+        "c": {
+          "d": {
+            "b": {
+              "other": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " 项要求"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "plural": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " 项要求"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "singular": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " 个要求"
+                ],
+                "i": 9,
+                "t": "C9"
+              }
+            },
+            "t": "p"
+          },
+          "i": 8,
+          "t": "Plural"
+        },
+        "i": 7,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "a990662cca8aba7e": {
+    "c": "关于该角色",
+    "i": 1,
+    "t": "h2"
+  },
+  "apply.backToAll": "浏览全部职位",
+  "apply.backToJob": "返回职位列表",
+  "apply.coverLetter": "求职信",
+  "apply.coverLetterPlaceholder": "请告诉我们你为何对该职位感兴趣，以及你为什么适合这份工作…",
+  "apply.email": "电子邮箱地址",
+  "apply.emailPlaceholder": "you@example.com",
+  "apply.fullName": "姓名",
+  "apply.fullNamePlaceholder": "请输入你的姓名",
+  "apply.heading": "申请这个职位",
+  "apply.howDidYouHear": "你是通过什么渠道了解到这个职位的？",
+  "apply.howDidYouHearOptions.jobBoard": "招聘网站",
+  "apply.howDidYouHearOptions.other": "其他",
+  "apply.howDidYouHearOptions.referral": "员工推荐",
+  "apply.howDidYouHearOptions.search": "搜索引擎",
+  "apply.howDidYouHearOptions.socialMedia": "社交媒体",
+  "apply.linkedIn": "LinkedIn 个人资料",
+  "apply.linkedInPlaceholder": "https://linkedin.com/in/yourprofile",
+  "apply.optional": "选填",
+  "apply.phone": "电话号码",
+  "apply.phonePlaceholder": "+1 (555) 000-0000",
+  "apply.portfolio": "作品集 / 个人网站",
+  "apply.portfolioPlaceholder": "https://yourportfolio.com",
+  "apply.required": "必填",
+  "apply.resume": "简历 / CV",
+  "apply.resumeHint": "请上传 PDF 格式的简历（大小不超过 10 MB）",
+  "apply.salaryExpectation": "期望薪资",
+  "apply.salaryExpectationPlaceholder": "例如：150,000 美元",
+  "apply.startDate": "最早可开始工作的日期",
+  "apply.submitApplication": "提交申请",
+  "apply.submitting": "正在提交…",
+  "apply.subtitle": "请填写下方表单以提交你的申请。所有带星号的字段均为必填项。",
+  "apply.successHeading": "申请已提交！",
+  "apply.successMessage": "感谢你的申请！我们会审核你的资料，并在 5–7 个工作日内回复你。",
+  "bd72473f95b58eab": {
+    "c": "公司详情",
+    "i": 1,
+    "t": "h3"
+  },
+  "c0bf245bb7a348a7": "员工",
+  "companies.aether-apps.culture": "我们非常在意把事情做到最好。每一个动画、每一次交互、每一个像素都很重要。我们的小团队行动迅速，但从不发布自己都不满意的东西。我们提供灵活的工作时间，因为我们相信，只有用最适合自己的方式工作，才能做出最好的成果。",
+  "companies.aether-apps.description": "Aether Apps 是一家位于悉尼的移动开发工作室，专注为 iOS 和 Android 打造面向消费者和企业的应用。凭借精致的用户体验和流畅的性能而闻名，我们的应用多次登上 App Store 和 Google Play 的精选推荐。",
+  "companies.aether-apps.employees": "25–50",
+  "companies.aether-apps.founded": "2020",
+  "companies.aether-apps.headquarters": "澳大利亚悉尼",
+  "companies.aether-apps.industry": "移动开发",
+  "companies.aether-apps.name": "Aether Apps",
+  "companies.aether-apps.tagline": "如魔法般顺滑的移动体验",
+  "companies.aether-apps.techStack": "React Native、TypeScript、Swift、Kotlin、Firebase",
+  "companies.aether-apps.website": "https://example.com/aether",
+  "companies.cirrus-infrastructure.culture": "我们是一支小型、远程优先的团队，成员分布在跨越 12 个时区的世界各地。我们默认采用异步沟通，把一切都写进文档，并彼此信任，自主管理各自的时间安排。我们交付可靠的基础设施，让客户可以专注于自己的产品。",
+  "companies.cirrus-infrastructure.description": "Cirrus Infrastructure 为初创企业和中型公司提供托管云服务和基础设施自动化。自成立以来，我们一直是一个全远程团队，帮助各团队在多家云服务提供商上部署、扩展并保护其应用。",
+  "companies.cirrus-infrastructure.employees": "25-50",
+  "companies.cirrus-infrastructure.founded": "2021",
+  "companies.cirrus-infrastructure.headquarters": "远程（全球范围）",
+  "companies.cirrus-infrastructure.industry": "云基础设施",
+  "companies.cirrus-infrastructure.name": "Cirrus 基础设施",
+  "companies.cirrus-infrastructure.tagline": "云端基础设施，简单易用",
+  "companies.cirrus-infrastructure.techStack": "Terraform, Go, Python, Kubernetes, AWS, GCP",
+  "companies.cirrus-infrastructure.website": "https://example.com/cirrus",
+  "companies.luma-creative.culture": "创造力是一切工作的核心。我们在东京的工作室是一处用于实验和打磨技艺的空间。我们每月举办设计评审，鼓励个人 side project，并且坚信：出色的产品源自出色的流程。",
+  "companies.luma-creative.description": "Luma Creative 打造面向全球创意专业人士的设计协作工具。我们的平台总部设在东京，将实时协作与强大的设计功能相结合，为工作室、代理商以及独立创作者提供服务。",
+  "companies.luma-creative.employees": "100–250",
+  "companies.luma-creative.founded": "2019",
+  "companies.luma-creative.headquarters": "日本东京",
+  "companies.luma-creative.industry": "设计工具",
+  "companies.luma-creative.name": "Luma Creative",
+  "companies.luma-creative.tagline": "创意与协作在这里相遇",
+  "companies.luma-creative.techStack": "TypeScript、WebGL、Rust（WASM）、React、AWS",
+  "companies.luma-creative.website": "https://example.com/luma",
+  "companies.meridian-systems.culture": "我们重视主人翁精神、好奇心和协作。我们的工程文化强调整洁的代码、认真的 Code Review，以及持续学习。我们每周都会发布新版本，一起庆祝成功，同时也同样重视从经验中学习。",
+  "companies.meridian-systems.description": "Meridian Systems 是一家总部位于旧金山的企业软件公司，为现代企业打造工具。自 2018 年成立以来，我们凭借工作流自动化和分析产品套件，已为遍布 40 个国家/地区的 5,000 多家公司提供服务。",
+  "companies.meridian-systems.employees": "250-500",
+  "companies.meridian-systems.founded": "2018",
+  "companies.meridian-systems.headquarters": "加利福尼亚州旧金山",
+  "companies.meridian-systems.industry": "企业软件",
+  "companies.meridian-systems.name": "Meridian Systems",
+  "companies.meridian-systems.tagline": "塑造商业软件的未来",
+  "companies.meridian-systems.techStack": "React、TypeScript、Node.js、PostgreSQL、AWS",
+  "companies.meridian-systems.website": "https://example.com/meridian",
+  "companies.norden-analytics.culture": "我们是一支多元化的国际团队，重视技术卓越和开放沟通。我们实行「无责事后复盘」机制，持续在工具链上加大投入，并且坚信：卓越的基础设施才能成就卓越的产品。",
+  "companies.norden-analytics.description": "Norden Analytics 是一家总部位于柏林的数据平台公司，专注于实时分析和商业智能。我们的平台每天处理数十亿条事件，帮助企业以亚秒级延迟做出数据驱动的决策。",
+  "companies.norden-analytics.employees": "50–100",
+  "companies.norden-analytics.founded": "2020",
+  "companies.norden-analytics.headquarters": "德国柏林",
+  "companies.norden-analytics.industry": "数据与分析",
+  "companies.norden-analytics.name": "Norden Analytics",
+  "companies.norden-analytics.tagline": "面向现代企业的实时数据智能",
+  "companies.norden-analytics.techStack": "Go、Apache Kafka、ClickHouse、Kubernetes、GCP",
+  "companies.norden-analytics.website": "https://example.com/norden",
+  "companies.vantage-research.culture": "我们既有学术上的严谨，又具备初创公司的敏捷。团队成员包括博士、前交易员以及热衷解决复杂问题的工程师。我们会发表研究成果、参加会议，并在各个层面鼓励求知欲与思辨精神。",
+  "companies.vantage-research.description": "Vantage Research 是一家总部位于伦敦的金融科技公司，致力于将机器学习与金融专业知识相结合。我们的模型为全球的对冲基金、资产管理公司和机构投资者提供投资决策支持。",
+  "companies.vantage-research.employees": "100–250",
+  "companies.vantage-research.founded": "2017",
+  "companies.vantage-research.headquarters": "英国伦敦",
+  "companies.vantage-research.industry": "金融科技与研究",
+  "companies.vantage-research.name": "Vantage Research",
+  "companies.vantage-research.tagline": "为金融市场提供量化智能支持",
+  "companies.vantage-research.techStack": "Python、PyTorch、Apache Spark、PostgreSQL、Azure",
+  "companies.vantage-research.website": "https://example.com/vantage",
+  "d8fd2f432418dcd4": "立即申请",
   "e45e880e9f633071": {
     "c": [
       {
@@ -92,6 +351,17 @@
     "i": 1,
     "t": "div"
   },
+  "ee2c4828062df2a2": {
+    "c": "资质条件",
+    "i": 1,
+    "t": "h2"
+  },
+  "f26ebf28e97609d1": {
+    "c": "职责",
+    "i": 1,
+    "t": "h2"
+  },
+  "f8311daab61ec9f0": "行业",
   "f836f4caad819654": [
     {
       "c": "开放职位",
@@ -105,33 +375,45 @@
     }
   ],
   "jobs.1.company": "Meridian Systems",
-  "jobs.1.description": "使用 React 和 TypeScript 构建和维护复杂的 Web 应用，为我们的面向客户平台主导架构决策。",
+  "jobs.1.companySlug": "meridian-systems",
+  "jobs.1.description": "使用 React 和 TypeScript 构建和维护复杂的 Web 应用程序，主导面向客户平台的架构设计与相关技术决策。",
   "jobs.1.location": "美国加利福尼亚州旧金山",
+  "jobs.1.longDescription": "我们正在招募一位高级前端工程师，加入快速成长的 Meridian Systems 团队。你将负责使用 React 和 TypeScript 构建和维护复杂的 Web 应用，主导架构决策、指导初级开发者，并与产品和设计团队紧密合作。这个职位能让你有机会参与塑造我们面向客户的平台技术方向——目前全球已有数以千计的企业在使用这个平台。",
   "jobs.1.title": "高级前端工程师",
   "jobs.1.type": "全职",
   "jobs.2.company": "Norden Analytics",
-  "jobs.2.description": "使用 Go 设计和实现可扩展的微服务，参与构建每天处理数百万次请求的实时数据处理流水线。",
+  "jobs.2.companySlug": "norden-analytics",
+  "jobs.2.description": "使用 Go 设计和实现可扩展的微服务，参与构建每天处理数百万请求的实时数据处理流水线。",
   "jobs.2.location": "德国柏林",
-  "jobs.2.title": "后端开发工程师",
+  "jobs.2.longDescription": "Norden Analytics 正在招聘后端开发工程师，帮助我们扩展数据基础设施。你将使用 Go 设计和实现微服务，参与构建实时数据处理流水线，并确保我们的系统能够应对每天数百万请求带来的不断增长的业务需求。你将与我们位于柏林办公室的一支优秀工程团队合作，并可享受每周部分时间远程办公的灵活安排。",
+  "jobs.2.title": "后端工程师",
   "jobs.2.type": "全职",
   "jobs.3.company": "Luma Creative",
-  "jobs.3.description": "为我们的设计协作工具打造优秀的用户体验。你将负责用户调研、原型设计，并与工程团队紧密合作，一起交付打磨精良的界面。",
+  "jobs.3.companySlug": "luma-creative",
+  "jobs.3.description": "为我们的设计协作工具打造出色的用户体验。你将负责开展用户研究、制作原型，并与工程团队紧密合作，共同交付精致的界面。",
   "jobs.3.location": "日本东京",
+  "jobs.3.longDescription": "Luma Creative 现正招聘一位产品设计师，一起打造我们设计协作平台的未来。你将负责从用户研究到线框图和高保真原型在内的全流程设计，并与工程团队紧密合作，共同交付打磨精良的界面体验。该岗位常驻我们东京工作室，你将有机会参与一款面向全球创意从业者的产品。",
   "jobs.3.title": "产品设计师",
   "jobs.3.type": "全职",
   "jobs.4.company": "Cirrus Infrastructure",
-  "jobs.4.description": "在 AWS 和 GCP 上管理云基础设施，自动化部署流水线，并提升全球服务网络的系统可靠性。",
+  "jobs.4.companySlug": "cirrus-infrastructure",
+  "jobs.4.description": "在 AWS 和 GCP 上管理云基础设施，自动化部署流水线，提升全球服务网络的系统可靠性。",
   "jobs.4.location": "远程",
+  "jobs.4.longDescription": "Cirrus Infrastructure 正在招聘 DevOps 工程师，负责管理和演进涵盖 AWS 和 GCP 的多云基础设施。你将构建和维护自动化部署流水线，完善监控与告警体系，并持续推动我们全球服务网络的可靠性提升。这是一个完全远程职位，面向任何时区的候选人开放，团队以异步沟通为主。",
   "jobs.4.title": "DevOps 工程师",
   "jobs.4.type": "合同制",
   "jobs.5.company": "Vantage Research",
-  "jobs.5.description": "开发用于金融预测的机器学习模型。分析大规模数据集，并向整个组织内的相关利益方展示你的分析结果。",
+  "jobs.5.companySlug": "vantage-research",
+  "jobs.5.description": "构建用于金融预测的机器学习模型。分析大规模数据集，并向整个组织的利益相关者展示你的发现。",
   "jobs.5.location": "英国伦敦",
+  "jobs.5.longDescription": "Vantage Research 正在伦敦招聘一名数据科学家，加入我们的量化研究团队。你将构建用于金融预测的机器学习模型，分析大规模数据集，并向技术和非技术利益相关者传达洞见。这个职位将前沿的机器学习研究与真实的金融应用场景紧密结合。",
   "jobs.5.title": "数据科学家",
   "jobs.5.type": "全职",
   "jobs.6.company": "Aether Apps",
-  "jobs.6.description": "使用 React Native 构建跨平台移动应用。与设计师密切合作，在 iOS 和 Android 平台上打造流畅、高性能的用户体验。",
+  "jobs.6.companySlug": "aether-apps",
+  "jobs.6.description": "使用 React Native 构建跨平台移动应用，与设计师密切合作，为 iOS 和 Android 用户打造流畅、高性能的体验。",
   "jobs.6.location": "澳大利亚悉尼",
-  "jobs.6.title": "移动开发工程师",
+  "jobs.6.longDescription": "Aether Apps 正在招聘移动开发工程师，负责使用 React Native 构建并优化我们的跨平台应用。你将在悉尼办公室与设计师和产品经理紧密合作，为 iOS 和 Android 打造流畅、高性能的移动体验。这个兼职岗位非常适合希望平衡工作与生活的资深开发者。",
+  "jobs.6.title": "移动端开发工程师",
   "jobs.6.type": "兼职"
 }

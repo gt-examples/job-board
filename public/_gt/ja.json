@@ -1,12 +1,271 @@
 {
-  "0bdf666bd8d01228": "給与や応募締切、募集要件の件数などをロケールごとに表示する、多言語対応の求人一覧ボードです。",
+  "07a7e803482b6573": "会社プロフィールを見る",
+  "0bdf666bd8d01228": "多言語対応の求人ボードのデモです。ロケールに応じて、給与や応募締切、必須条件の数を表示します。",
+  "12141f7a3bb3dc2c": {
+    "c": "文化",
+    "i": 1,
+    "t": "h2"
+  },
+  "19f0d1f54092784a": {
+    "c": "福利厚生",
+    "i": 1,
+    "t": "h2"
+  },
+  "1c4f1865fd2cebeb": {
+    "c": "概要",
+    "i": 1,
+    "t": "h2"
+  },
+  "24a29150f778abb9": {
+    "c": [
+      {
+        "c": {
+          "i": 5,
+          "k": "_gt_value_5",
+          "v": "v"
+        },
+        "i": 4,
+        "t": "span"
+      },
+      " の ",
+      {
+        "c": {
+          "i": 3,
+          "k": "_gt_value_3",
+          "v": "v"
+        },
+        "i": 2,
+        "t": "span"
+      },
+      " に応募中"
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "3b23ecfa8d741c04": {
+    "c": "募集中のポジション",
+    "i": 1,
+    "t": "h2"
+  },
+  "426930c94fde1628": "本社",
+  "42b105e9589791af": {
+    "c": "← 求人一覧へ",
+    "i": 1,
+    "t": "span"
+  },
   "497a99319916a434": {
     "c": "General Translation を使用して構築され、通貨・日付・複数形のロケール対応フォーマットを実演します。",
     "i": 1,
     "t": "p"
   },
+  "57de0352acc4483c": {
+    "c": "技術スタック",
+    "i": 1,
+    "t": "h3"
+  },
   "5bcd1368a0260f6b": "求人ボード",
-  "61ee4c82092f7c0a": "求人ボード | 汎用的な翻訳例",
+  "61ee4c82092f7c0a": "求人ボード | 一般向け翻訳デモ",
+  "6b006ed446446388": "設立",
+  "767a98717fe791c1": {
+    "c": "← 求人に戻る",
+    "i": 1,
+    "t": "span"
+  },
+  "7872b2c7f53b43b5": {
+    "c": "ファイルをここにドラッグ＆ドロップするか、クリックして参照してください",
+    "i": 1,
+    "t": "p"
+  },
+  "8db9949ad10033e7": {
+    "c": [
+      {
+        "c": [
+          "給与: ",
+          {
+            "i": 3,
+            "k": "_gt_cost_3",
+            "v": "c"
+          },
+          " — ",
+          {
+            "i": 4,
+            "k": "_gt_cost_4",
+            "v": "c"
+          }
+        ],
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": [
+          "締め切り: ",
+          {
+            "i": 6,
+            "k": "_gt_date_6",
+            "v": "d"
+          }
+        ],
+        "i": 5,
+        "t": "span"
+      },
+      {
+        "c": {
+          "d": {
+            "b": {
+              "other": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " 件の要件"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "plural": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " 件の要件"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "singular": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " 件の要件"
+                ],
+                "i": 9,
+                "t": "C9"
+              }
+            },
+            "t": "p"
+          },
+          "i": 8,
+          "t": "Plural"
+        },
+        "i": 7,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "a990662cca8aba7e": {
+    "c": "役割について",
+    "i": 1,
+    "t": "h2"
+  },
+  "apply.backToAll": "すべての求人を見る",
+  "apply.backToJob": "求人一覧に戻る",
+  "apply.coverLetter": "カバーレター（志望動機書）",
+  "apply.coverLetterPlaceholder": "このポジションに興味を持った理由と、この役割にふさわしいと思うポイントを教えてください…",
+  "apply.email": "メールアドレス",
+  "apply.emailPlaceholder": "you@example.com",
+  "apply.fullName": "氏名",
+  "apply.fullNamePlaceholder": "氏名を入力してください",
+  "apply.heading": "このポジションに応募する",
+  "apply.howDidYouHear": "このポジションのことをどこで知りましたか？",
+  "apply.howDidYouHearOptions.jobBoard": "求人サイト",
+  "apply.howDidYouHearOptions.other": "その他",
+  "apply.howDidYouHearOptions.referral": "社員からの紹介",
+  "apply.howDidYouHearOptions.search": "検索エンジン",
+  "apply.howDidYouHearOptions.socialMedia": "ソーシャルメディア",
+  "apply.linkedIn": "LinkedInプロフィール",
+  "apply.linkedInPlaceholder": "https://linkedin.com/in/yourprofile",
+  "apply.optional": "任意",
+  "apply.phone": "電話番号",
+  "apply.phonePlaceholder": "+1 (555) 000-0000",
+  "apply.portfolio": "ポートフォリオ / Webサイト",
+  "apply.portfolioPlaceholder": "https://yourportfolio.com",
+  "apply.required": "必須",
+  "apply.resume": "履歴書・職務経歴書",
+  "apply.resumeHint": "PDF形式の履歴書をアップロードしてください（最大10MBまで）",
+  "apply.salaryExpectation": "希望年収",
+  "apply.salaryExpectationPlaceholder": "例：150,000 USD",
+  "apply.startDate": "勤務開始可能日",
+  "apply.submitApplication": "応募を送信",
+  "apply.submitting": "送信中...",
+  "apply.subtitle": "下のフォームに必要事項を入力して応募してください。アスタリスク（*）が付いている項目は必須です。",
+  "apply.successHeading": "応募を送信しました！",
+  "apply.successMessage": "ご応募ありがとうございます。内容を確認のうえ、5〜7営業日以内にご連絡いたします。",
+  "bd72473f95b58eab": {
+    "c": "会社情報",
+    "i": 1,
+    "t": "h3"
+  },
+  "c0bf245bb7a348a7": "従業員",
+  "companies.aether-apps.culture": "私たちはプロダクトのクオリティに本気でこだわっています。アニメーションひとつ、インタラクションひとつ、1ピクセルたりとも妥協しません。小さなチームで素早く動きながらも、自信と誇りを持てないものは決してリリースしません。柔軟なスケジュール制を採用しているのは、メンバーが自分に合ったスタイルで、最高のアウトプットを出してくれると信じているからです。",
+  "companies.aether-apps.description": "Aether Apps はシドニーを拠点とするモバイル開発スタジオで、iOS と Android 向けのコンシューマーおよびエンタープライズ向けアプリを開発しています。洗練されたユーザー体験とスムーズなパフォーマンスに定評があり、App Store と Google Play の両方で特集されています。",
+  "companies.aether-apps.employees": "25-50",
+  "companies.aether-apps.founded": "2020",
+  "companies.aether-apps.headquarters": "オーストラリア・シドニー",
+  "companies.aether-apps.industry": "モバイル開発",
+  "companies.aether-apps.name": "Aether Apps",
+  "companies.aether-apps.tagline": "魔法みたいなモバイル体験",
+  "companies.aether-apps.techStack": "React Native、TypeScript、Swift、Kotlin、Firebase",
+  "companies.aether-apps.website": "https://example.com/aether",
+  "companies.cirrus-infrastructure.culture": "私たちは、12のタイムゾーンにまたがって働く少人数のリモートファーストチームです。基本的には非同期でコミュニケーションを取り、あらゆることをドキュメント化し、お互いが自分のスケジュールを自律的に管理することを信頼しています。お客様が自分たちのプロダクトの開発に集中できるよう、信頼性の高いインフラを提供しています。",
+  "companies.cirrus-infrastructure.description": "Cirrus Infrastructure は、スタートアップ企業や中堅企業向けに、マネージドクラウドサービスとインフラ自動化を提供しています。創業当初からフルリモート体制で、チームが複数のクラウドプロバイダー上にアプリケーションをデプロイし、スケールさせ、安全に運用できるよう支援しています。",
+  "companies.cirrus-infrastructure.employees": "25〜50",
+  "companies.cirrus-infrastructure.founded": "2021",
+  "companies.cirrus-infrastructure.headquarters": "フルリモート（グローバル）",
+  "companies.cirrus-infrastructure.industry": "クラウドインフラ",
+  "companies.cirrus-infrastructure.name": "Cirrus インフラストラクチャ",
+  "companies.cirrus-infrastructure.tagline": "クラウドインフラをもっとシンプルに",
+  "companies.cirrus-infrastructure.techStack": "Terraform、Go、Python、Kubernetes、AWS、GCP",
+  "companies.cirrus-infrastructure.website": "https://example.com/cirrus",
+  "companies.luma-creative.culture": "創造性は、私たちのあらゆる取り組みの中心にあります。東京スタジオは、実験とクラフトのための場です。毎月デザイン講評会を開き、サイドプロジェクトを奨励し、美しいプロダクトは美しいプロセスから生まれると信じています。",
+  "companies.luma-creative.description": "Luma Creative は、世界中のクリエイティブなプロフェッショナルに使われているデザインコラボレーションツールを開発しています。東京を拠点に、リアルタイムコラボレーションと強力なデザイン機能を組み合わせ、スタジオ、エージェンシー、フリーランスのクリエイターをサポートしています。",
+  "companies.luma-creative.employees": "100〜250",
+  "companies.luma-creative.founded": "2019年",
+  "companies.luma-creative.headquarters": "日本・東京",
+  "companies.luma-creative.industry": "デザインツール",
+  "companies.luma-creative.name": "Luma Creative",
+  "companies.luma-creative.tagline": "創造性とコラボレーションが出会う場所",
+  "companies.luma-creative.techStack": "TypeScript, WebGL, Rust (WASM), React, AWS",
+  "companies.luma-creative.website": "https://example.com/luma",
+  "companies.meridian-systems.culture": "私たちは、オーナーシップ、好奇心、そしてコラボレーションを大切にしています。エンジニアリングチームの文化として、クリーンなコード、丁寧なコードレビュー、継続的な学習を重視しています。毎週プロダクトの新バージョンをリリースし、成功もそこから得られた学びも、どちらもチーム全体で称え合っています。",
+  "companies.meridian-systems.description": "Meridian Systems はサンフランシスコに拠点を置くエンタープライズ向けソフトウェア企業で、現代のビジネスのためのツールを開発しています。2018年の創業以来、ワークフロー自動化と分析の製品群により、40か国以上で5,000社を超える企業を支援してきました。",
+  "companies.meridian-systems.employees": "250〜500",
+  "companies.meridian-systems.founded": "2018年",
+  "companies.meridian-systems.headquarters": "米国カリフォルニア州サンフランシスコ",
+  "companies.meridian-systems.industry": "エンタープライズ向けソフトウェア",
+  "companies.meridian-systems.name": "Meridian Systems",
+  "companies.meridian-systems.tagline": "ビジネスソフトウェアの未来を築く",
+  "companies.meridian-systems.techStack": "React、TypeScript、Node.js、PostgreSQL、AWS",
+  "companies.meridian-systems.website": "https://example.com/meridian",
+  "companies.norden-analytics.culture": "私たちは多様でグローバルなチームで、技術的な卓越性とオープンなコミュニケーションを大切にしています。責任追及ではなく学びに焦点を当てたポストモーテムを行い、ツールの整備にしっかり投資し、優れたインフラが優れたプロダクトを生むと信じています。",
+  "companies.norden-analytics.description": "Norden Analytics はベルリン拠点のデータプラットフォーム企業で、リアルタイム分析とビジネスインテリジェンスを専門としています。私たちのプラットフォームは毎日数十億件規模のイベントを処理し、企業がレイテンシ 1 秒未満でデータドリブンな意思決定を行えるよう支援します。",
+  "companies.norden-analytics.employees": "50〜100",
+  "companies.norden-analytics.founded": "2020",
+  "companies.norden-analytics.headquarters": "ドイツ・ベルリン",
+  "companies.norden-analytics.industry": "データ／アナリティクス",
+  "companies.norden-analytics.name": "Norden Analytics",
+  "companies.norden-analytics.tagline": "エンタープライズ向けモダンなリアルタイムデータインテリジェンス",
+  "companies.norden-analytics.techStack": "Go、Apache Kafka、ClickHouse、Kubernetes、GCP",
+  "companies.norden-analytics.website": "https://example.com/norden",
+  "companies.vantage-research.culture": "私たちは、学術的な厳密さとスタートアップの俊敏さを両立させています。チームには、博士号取得者、元トレーダー、そして難しい問題に取り組むことを楽しむエンジニアが在籍しています。リサーチ成果を公開し、カンファレンスに参加し、あらゆるレベルで知的好奇心を持つことを奨励しています。",
+  "companies.vantage-research.description": "Vantage Research はロンドンを拠点とするフィンテック企業で、機械学習と金融の専門知識を融合させています。私たちのモデルは、世界中のヘッジファンド、アセットマネージャー、機関投資家の投資判断を支えています。",
+  "companies.vantage-research.employees": "100～250",
+  "companies.vantage-research.founded": "2017",
+  "companies.vantage-research.headquarters": "イギリス・ロンドン",
+  "companies.vantage-research.industry": "フィンテック＆リサーチ",
+  "companies.vantage-research.name": "Vantage Research",
+  "companies.vantage-research.tagline": "金融市場向けクオンツ・インテリジェンス",
+  "companies.vantage-research.techStack": "Python、PyTorch、Apache Spark、PostgreSQL、Azure",
+  "companies.vantage-research.website": "https://example.com/vantage",
+  "d8fd2f432418dcd4": "今すぐ申し込む",
   "e45e880e9f633071": {
     "c": [
       {
@@ -92,6 +351,17 @@
     "i": 1,
     "t": "div"
   },
+  "ee2c4828062df2a2": {
+    "c": "資格",
+    "i": 1,
+    "t": "h2"
+  },
+  "f26ebf28e97609d1": {
+    "c": "役割",
+    "i": 1,
+    "t": "h2"
+  },
+  "f8311daab61ec9f0": "業界",
   "f836f4caad819654": [
     {
       "c": "募集中のポジション",
@@ -99,39 +369,51 @@
       "t": "h2"
     },
     {
-      "c": "エンジニアリング、デザイン、データ関連の現在の求人をご覧ください。給与、締め切り、応募要件はお使いのロケールに合わせて表示されます。",
+      "c": "エンジニアリング、デザイン、データ職種の現在の求人をご覧ください。給与、締め切り、要件はお使いのロケールに合わせて表示されます。",
       "i": 2,
       "t": "p"
     }
   ],
   "jobs.1.company": "Meridian Systems",
-  "jobs.1.description": "React と TypeScript を使って複雑な Web アプリケーションを構築・運用します。顧客向けプラットフォームのアーキテクチャに関する意思決定をリードします。",
-  "jobs.1.location": "San Francisco, CA",
+  "jobs.1.companySlug": "meridian-systems",
+  "jobs.1.description": "ReactとTypeScriptを用いて複雑なWebアプリケーションを構築・保守します。顧客向けプラットフォームのアーキテクチャに関する意思決定を主導します。",
+  "jobs.1.location": "米国カリフォルニア州サンフランシスコ",
+  "jobs.1.longDescription": "Meridian Systems では、成長中のチームに加わってくれるシニアフロントエンドエンジニアを募集しています。React と TypeScript を使って複雑な Web アプリケーションを構築・保守し、アーキテクチャの意思決定をリードしつつ、ジュニア開発者のメンタリングやプロダクト／デザインチームとの密な連携もお任せします。世界中の何千もの企業に使われている顧客向けプラットフォームの技術的な方向性を、自ら形作っていけるポジションです。",
   "jobs.1.title": "シニアフロントエンドエンジニア",
   "jobs.1.type": "フルタイム",
   "jobs.2.company": "Norden Analytics",
-  "jobs.2.description": "Go でスケーラブルなマイクロサービスを設計・実装します。1 日あたり数百万件のリクエストを処理するリアルタイムデータ処理パイプラインの開発に携わります。",
-  "jobs.2.location": "Berlin, Germany",
+  "jobs.2.companySlug": "norden-analytics",
+  "jobs.2.description": "Go を使ってスケーラブルなマイクロサービスを設計・実装し、毎日数百万件のリクエストを処理するリアルタイムデータ処理パイプラインを開発します。",
+  "jobs.2.location": "ドイツ・ベルリン",
+  "jobs.2.longDescription": "Norden Analytics では、データ基盤のスケールに取り組むバックエンドエンジニアを募集しています。Go でマイクロサービスを設計・実装し、リアルタイムデータ処理パイプラインを開発して、毎日数百万件にのぼるリクエストを支えるシステムをつくっていきます。ベルリンのオフィスを拠点に優秀なエンジニアチームと一緒に働きながら、週の一部はリモート勤務も可能です。",
   "jobs.2.title": "バックエンドエンジニア",
   "jobs.2.type": "フルタイム",
   "jobs.3.company": "Luma Creative",
-  "jobs.3.description": "デザインコラボレーションツールのユーザー体験をデザインするポジションです。リサーチを行い、プロトタイプを作成し、エンジニアリングチームと密接に連携しながら、完成度の高いインターフェースをリリースしていきます。",
-  "jobs.3.location": "日本（東京）",
+  "jobs.3.companySlug": "luma-creative",
+  "jobs.3.description": "私たちのデザインコラボレーションツールのユーザー体験を形作ってください。ユーザーリサーチを行い、プロトタイプを作成し、エンジニアリングチームと緊密に協力しながら、洗練されたインターフェースをリリースしていきましょう。",
+  "jobs.3.location": "東京（日本）",
+  "jobs.3.longDescription": "Luma Creative では、デザインコラボレーションプラットフォームの未来を形づくるプロダクトデザイナーを募集しています。ユーザーリサーチを行い、ワイヤーフレームや高度なプロトタイプを作成し、エンジニアリングチームと密接に連携しながら、完成度が高く美しいインターフェースをリリースしていただきます。拠点は東京のスタジオで、世界中のクリエイティブなプロフェッショナルに使われるプロダクトに関わることができます。",
   "jobs.3.title": "プロダクトデザイナー",
-  "jobs.3.type": "正社員",
+  "jobs.3.type": "フルタイム",
   "jobs.4.company": "Cirrus Infrastructure",
-  "jobs.4.description": "AWS と GCP 上のクラウドインフラを管理します。デプロイパイプラインを自動化し、グローバルなサービスネットワーク全体にわたってシステムの信頼性を向上させます。",
-  "jobs.4.location": "リモート勤務",
-  "jobs.4.title": "DevOpsエンジニア",
-  "jobs.4.type": "契約社員",
+  "jobs.4.companySlug": "cirrus-infrastructure",
+  "jobs.4.description": "AWS と GCP 上のクラウドインフラを管理します。デプロイパイプラインを自動化し、グローバルに展開されたサービス群全体のシステム信頼性を高めます。",
+  "jobs.4.location": "リモート",
+  "jobs.4.longDescription": "Cirrus Infrastructure では、AWS と GCP にまたがるマルチクラウドインフラの運用と継続的な改善を担う DevOps エンジニアを募集しています。デプロイパイプラインの自動化、モニタリングとアラート体制の強化、そしてグローバルに展開されたサービスネットワーク全体の信頼性向上をリードしていただきます。このポジションはフルリモートで、タイムゾーンを問わず世界中どこからでも応募可能です。コミュニケーションは非同期を基本としたスタイルです。",
+  "jobs.4.title": "DevOps エンジニア",
+  "jobs.4.type": "契約",
   "jobs.5.company": "Vantage Research",
-  "jobs.5.description": "金融予測向けの機械学習モデルを開発します。大規模なデータセットを分析し、組織全体のステークホルダーに結果を分かりやすく提示します。",
-  "jobs.5.location": "London, UK",
+  "jobs.5.companySlug": "vantage-research",
+  "jobs.5.description": "財務予測向けの機械学習モデルを開発し、大規模なデータセットを分析して、その結果を組織内のステークホルダーに共有します。",
+  "jobs.5.location": "英国ロンドン",
+  "jobs.5.longDescription": "Vantage Research では、ロンドンのクオンツ・リサーチチームに参加するデータサイエンティストを募集しています。財務予測向けの機械学習モデルを開発し、大規模なデータセットを分析し、技術／非技術双方のステークホルダーにインサイトを伝えていただきます。このポジションは、最先端の ML 研究と、その成果の実世界の金融分野への応用とをつなぐ役割です。",
   "jobs.5.title": "データサイエンティスト",
   "jobs.5.type": "フルタイム",
   "jobs.6.company": "Aether Apps",
-  "jobs.6.description": "React Native を使ってクロスプラットフォームのモバイルアプリケーションを開発します。デザイナーと協力し、iOS と Android の両方で滑らかで高性能なユーザー体験を提供します。",
-  "jobs.6.location": "Sydney, Australia",
-  "jobs.6.title": "モバイルアプリ開発者",
+  "jobs.6.companySlug": "aether-apps",
+  "jobs.6.description": "React Native を用いてクロスプラットフォーム対応のモバイルアプリを開発します。デザイナーと協力しながら、iOS と Android 向けにスムーズで高パフォーマンスなユーザー体験を実現します。",
+  "jobs.6.location": "オーストラリア・シドニー",
+  "jobs.6.longDescription": "Aether Apps では、React Native を使ってクロスプラットフォーム対応のモバイルアプリケーションを構築・改善するモバイルデベロッパーを募集しています。シドニーオフィスを拠点に、デザイナーやプロダクトマネージャーと緊密に連携し、iOS と Android の両方でスムーズかつ高パフォーマンスなモバイル体験をユーザーに提供していただきます。ワークライフバランスを重視する経験豊富な開発者に最適な、パートタイムのポジションです。",
+  "jobs.6.title": "モバイルアプリ開発エンジニア",
   "jobs.6.type": "パートタイム"
 }

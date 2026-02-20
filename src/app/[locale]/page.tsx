@@ -1,6 +1,7 @@
 import { T, Var, Currency, DateTime, Plural } from "gt-next";
 import { getGT, getTranslations } from "gt-next/server";
 import { LocaleSelector } from "gt-next";
+import Link from "next/link";
 
 type Job = {
   id: number;
@@ -69,11 +70,11 @@ const jobs: Job[] = [
   },
 ];
 
-async function JobCard({ job }: { job: Job }) {
+async function JobCard({ job, locale }: { job: Job; locale: string }) {
   const d = await getTranslations("jobs." + job.dictKey);
 
   return (
-    <div className="border border-neutral-800 rounded-lg p-6 hover:border-neutral-700 transition-colors">
+    <Link href={`/${locale}/jobs/${job.id}`} className="block border border-neutral-800 rounded-lg p-6 hover:border-neutral-600 transition-colors">
       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-4">
         <div>
           <h3 className="text-lg font-semibold text-neutral-100">
@@ -116,11 +117,16 @@ async function JobCard({ job }: { job: Job }) {
           </span>
         </div>
       </T>
-    </div>
+    </Link>
   );
 }
 
-export default async function Home() {
+export default async function Home({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
   const gt = await getGT();
 
   return (
@@ -179,7 +185,7 @@ export default async function Home() {
 
         <div className="flex flex-col gap-4">
           {jobs.map((job) => (
-            <JobCard key={job.id} job={job} />
+            <JobCard key={job.id} job={job} locale={locale} />
           ))}
         </div>
       </main>

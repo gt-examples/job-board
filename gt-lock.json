@@ -42,6 +42,24 @@
             "updatedAt": "2026-02-19T05:48:11.391Z",
             "postProcessHash": "2a0f79e206e83f512ec222fb955ba11e4437ee8aca4bf8d2f5b5d6997c9e635d"
           }
+        },
+        "e600ece994102c977105bb9c76cebd5e743f8181ab719c81eeceda3cd8311990": {
+          "es": {
+            "updatedAt": "2026-02-20T08:06:24.925Z",
+            "postProcessHash": "f30ec7d59332d3775c8406dea5434304e11d92f3cf858d60135c601906a20e53"
+          },
+          "fr": {
+            "updatedAt": "2026-02-20T08:06:24.929Z",
+            "postProcessHash": "133dce3aa79eb2deb45bb991411630e8452cc1927f8b239fab1c46f030d1b26a"
+          },
+          "ja": {
+            "updatedAt": "2026-02-20T08:06:24.930Z",
+            "postProcessHash": "3d073a8e51d69d21d1a14d7a67b9cae3330260f8c993f3e791e778b6c59aaecb"
+          },
+          "zh": {
+            "updatedAt": "2026-02-20T08:06:24.932Z",
+            "postProcessHash": "13a7ca71e49d6c0c5b734c67e8b864ad2fb528c7d203e545d79abf0ced380ad3"
+          }
         }
       }
     }

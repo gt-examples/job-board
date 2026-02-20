@@ -1,12 +1,283 @@
 {
-  "0bdf666bd8d01228": "Una bolsa de empleo multilingüe con salarios, fechas límite y cantidad de requisitos adaptados a cada configuración regional.",
+  "07a7e803482b6573": "Ver perfil de la empresa",
+  "0bdf666bd8d01228": "Una bolsa de trabajo multilingüe con salarios, plazos y número de requisitos adaptados a tu configuración regional.",
+  "12141f7a3bb3dc2c": {
+    "c": "Cultura",
+    "i": 1,
+    "t": "h2"
+  },
+  "19f0d1f54092784a": {
+    "c": "Beneficios y ventajas",
+    "i": 1,
+    "t": "h2"
+  },
+  "1c4f1865fd2cebeb": {
+    "c": "Acerca de",
+    "i": 1,
+    "t": "h2"
+  },
+  "24a29150f778abb9": {
+    "c": [
+      "Solicitando para: ",
+      {
+        "c": {
+          "i": 3,
+          "k": "_gt_value_3",
+          "v": "v"
+        },
+        "i": 2,
+        "t": "span"
+      },
+      " en ",
+      {
+        "c": {
+          "i": 5,
+          "k": "_gt_value_5",
+          "v": "v"
+        },
+        "i": 4,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "3b23ecfa8d741c04": {
+    "c": "Puestos disponibles",
+    "i": 1,
+    "t": "h2"
+  },
+  "426930c94fde1628": "Sede central",
+  "42b105e9589791af": {
+    "c": "← Todos los empleos",
+    "i": 1,
+    "t": "span"
+  },
   "497a99319916a434": {
     "c": "Creado con General Translation para demostrar el formato según la configuración regional de monedas, fechas y plurales.",
     "i": 1,
     "t": "p"
   },
-  "5bcd1368a0260f6b": "Bolsa de empleo",
-  "61ee4c82092f7c0a": "Bolsa de empleo | Traducción general",
+  "57de0352acc4483c": {
+    "c": "Stack tecnológico",
+    "i": 1,
+    "t": "h3"
+  },
+  "5bcd1368a0260f6b": "Bolsa de trabajo",
+  "61ee4c82092f7c0a": "Bolsa de trabajo | Traducción general",
+  "6b006ed446446388": "Fundado",
+  "767a98717fe791c1": {
+    "c": "← Volver al trabajo",
+    "i": 1,
+    "t": "span"
+  },
+  "7872b2c7f53b43b5": {
+    "c": "Arrastra y suelta tu archivo aquí, o haz clic para buscar",
+    "i": 1,
+    "t": "p"
+  },
+  "8db9949ad10033e7": {
+    "c": [
+      {
+        "c": [
+          "Salario: ",
+          {
+            "i": 3,
+            "k": "_gt_cost_3",
+            "v": "c"
+          },
+          " — ",
+          {
+            "i": 4,
+            "k": "_gt_cost_4",
+            "v": "c"
+          }
+        ],
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": [
+          "Fecha límite: ",
+          {
+            "i": 6,
+            "k": "_gt_date_6",
+            "v": "d"
+          }
+        ],
+        "i": 5,
+        "t": "span"
+      },
+      {
+        "c": {
+          "d": {
+            "b": {
+              "many": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " requisitos"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "other": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " requisitos"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "plural": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " requisitos"
+                ],
+                "i": 9,
+                "t": "C9"
+              },
+              "singular": {
+                "c": [
+                  {
+                    "i": 10,
+                    "k": "_gt_value_10",
+                    "v": "v"
+                  },
+                  " requisito"
+                ],
+                "i": 9,
+                "t": "C9"
+              }
+            },
+            "t": "p"
+          },
+          "i": 8,
+          "t": "Plural"
+        },
+        "i": 7,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "a990662cca8aba7e": {
+    "c": "Sobre el rol",
+    "i": 1,
+    "t": "h2"
+  },
+  "apply.backToAll": "Ver todos los empleos",
+  "apply.backToJob": "Volver a la lista de empleos",
+  "apply.coverLetter": "Carta de presentación",
+  "apply.coverLetterPlaceholder": "Cuéntanos por qué te interesa este puesto y qué te convierte en una gran opción para el puesto...",
+  "apply.email": "Correo electrónico",
+  "apply.emailPlaceholder": "you@example.com",
+  "apply.fullName": "Nombre completo",
+  "apply.fullNamePlaceholder": "Introduce tu nombre completo",
+  "apply.heading": "Postularse a este puesto",
+  "apply.howDidYouHear": "¿Cómo te enteraste de este puesto?",
+  "apply.howDidYouHearOptions.jobBoard": "Portal de empleo",
+  "apply.howDidYouHearOptions.other": "Otro",
+  "apply.howDidYouHearOptions.referral": "Recomendación de un empleado",
+  "apply.howDidYouHearOptions.search": "Buscador",
+  "apply.howDidYouHearOptions.socialMedia": "Redes sociales",
+  "apply.linkedIn": "Perfil de LinkedIn",
+  "apply.linkedInPlaceholder": "https://linkedin.com/in/yourprofile",
+  "apply.optional": "Opcional",
+  "apply.phone": "Número de teléfono",
+  "apply.phonePlaceholder": "+1 (555) 000-0000",
+  "apply.portfolio": "Portafolio / sitio web",
+  "apply.portfolioPlaceholder": "https://yourportfolio.com",
+  "apply.required": "Obligatorio",
+  "apply.resume": "Currículum / CV",
+  "apply.resumeHint": "Sube tu currículum en PDF (máx. 10 MB)",
+  "apply.salaryExpectation": "Expectativa salarial",
+  "apply.salaryExpectationPlaceholder": "p. ej. 150.000 USD",
+  "apply.startDate": "Fecha de incorporación más próxima",
+  "apply.submitApplication": "Enviar candidatura",
+  "apply.submitting": "Enviando...",
+  "apply.subtitle": "Rellena el siguiente formulario para enviar tu candidatura. Todos los campos marcados con un asterisco (*) son obligatorios.",
+  "apply.successHeading": "¡Solicitud enviada!",
+  "apply.successMessage": "Gracias por tu interés. Revisaremos tu solicitud y nos pondremos en contacto contigo en un plazo de 5 a 7 días hábiles.",
+  "bd72473f95b58eab": {
+    "c": "Detalles de la empresa",
+    "i": 1,
+    "t": "h3"
+  },
+  "c0bf245bb7a348a7": "Empleados",
+  "companies.aether-apps.culture": "Nos tomamos nuestro trabajo muy en serio. Cada animación, cada interacción y cada píxel cuentan. Somos un equipo pequeño que se mueve rápido, pero nunca lanzamos nada de lo que no nos sintamos orgullosos. Ofrecemos horarios flexibles porque confiamos en que nuestra gente hará su mejor trabajo en sus propios términos.",
+  "companies.aether-apps.description": "Aether Apps es un estudio de desarrollo móvil con sede en Sídney que crea apps de consumo y para empresas para iOS y Android. Conocidas por sus experiencias de usuario muy cuidadas y su rendimiento fluido, nuestras apps han sido destacadas en App Store y Google Play.",
+  "companies.aether-apps.employees": "25-50",
+  "companies.aether-apps.founded": "2020",
+  "companies.aether-apps.headquarters": "Sídney, Australia",
+  "companies.aether-apps.industry": "Desarrollo móvil",
+  "companies.aether-apps.name": "Aether Apps",
+  "companies.aether-apps.tagline": "Experiencias móviles que parecen magia",
+  "companies.aether-apps.techStack": "React Native, TypeScript, Swift, Kotlin, Firebase",
+  "companies.aether-apps.website": "https://example.com/aether",
+  "companies.cirrus-infrastructure.culture": "Somos un equipo pequeño, remoto por defecto y distribuido en 12 zonas horarias. Nos comunicamos de forma asíncrona por regla general, lo documentamos todo y confiamos en que cada persona gestione su propio horario. Ofrecemos infraestructura fiable para que nuestros clientes puedan centrarse en sus propios productos.",
+  "companies.cirrus-infrastructure.description": "Cirrus Infrastructure ofrece servicios de nube gestionados y automatización de infraestructura para startups y empresas medianas. Hemos sido totalmente remotos desde nuestra creación y ayudamos a los equipos a desplegar, escalar y proteger sus aplicaciones en varios proveedores de servicios en la nube.",
+  "companies.cirrus-infrastructure.employees": "25-50",
+  "companies.cirrus-infrastructure.founded": "2021",
+  "companies.cirrus-infrastructure.headquarters": "Remoto (global)",
+  "companies.cirrus-infrastructure.industry": "Infraestructura en la nube",
+  "companies.cirrus-infrastructure.name": "Cirrus Infrastructure",
+  "companies.cirrus-infrastructure.tagline": "Infraestructura en la nube, simplificada",
+  "companies.cirrus-infrastructure.techStack": "Terraform, Go, Python, Kubernetes, AWS, GCP",
+  "companies.cirrus-infrastructure.website": "https://example.com/cirrus",
+  "companies.luma-creative.culture": "La creatividad está en el corazón de todo lo que hacemos. Nuestro estudio de Tokio es un espacio para la experimentación y el buen oficio. Organizamos revisiones de diseño mensuales, fomentamos los proyectos personales paralelos y creemos que los productos hermosos nacen de procesos igual de hermosos.",
+  "companies.luma-creative.description": "Luma Creative crea herramientas de colaboración en diseño utilizadas por profesionales creativos de todo el mundo. Con sede en Tokio, nuestra plataforma combina la colaboración en tiempo real con potentes herramientas de diseño y da servicio a estudios, agencias y creadores independientes.",
+  "companies.luma-creative.employees": "100-250",
+  "companies.luma-creative.founded": "2019",
+  "companies.luma-creative.headquarters": "Tokio, Japón",
+  "companies.luma-creative.industry": "Herramientas de diseño",
+  "companies.luma-creative.name": "Luma Creative",
+  "companies.luma-creative.tagline": "Donde la creatividad se une a la colaboración",
+  "companies.luma-creative.techStack": "TypeScript, WebGL, Rust (WASM), React, AWS",
+  "companies.luma-creative.website": "https://example.com/luma",
+  "companies.meridian-systems.culture": "Valoramos la responsabilidad, la curiosidad y la colaboración. Nuestra cultura de ingeniería hace hincapié en el código limpio, las revisiones de código rigurosas y el aprendizaje continuo. Hacemos despliegues todas las semanas y celebramos tanto los éxitos como las lecciones aprendidas.",
+  "companies.meridian-systems.description": "Meridian Systems es una empresa de software para empresas con sede en San Francisco que crea herramientas para los negocios modernos. Fundada en 2018, damos servicio a más de 5.000 compañías en 40 países con nuestra suite de productos para la automatización de flujos de trabajo y el análisis de datos.",
+  "companies.meridian-systems.employees": "250-500",
+  "companies.meridian-systems.founded": "2018",
+  "companies.meridian-systems.headquarters": "San Francisco, CA",
+  "companies.meridian-systems.industry": "Software para empresas",
+  "companies.meridian-systems.name": "Meridian Systems",
+  "companies.meridian-systems.tagline": "Creando el futuro del software empresarial",
+  "companies.meridian-systems.techStack": "React, TypeScript, Node.js, PostgreSQL, AWS",
+  "companies.meridian-systems.website": "https://example.com/meridian",
+  "companies.norden-analytics.culture": "Somos un equipo diverso e internacional que valora la excelencia técnica y la comunicación abierta. Hacemos postmortems sin buscar culpables, invertimos mucho en herramientas y creemos que una gran infraestructura es la base para crear grandes productos.",
+  "companies.norden-analytics.description": "Norden Analytics es una empresa de plataformas de datos con sede en Berlín, especializada en analítica de datos en tiempo real e inteligencia empresarial. Nuestra plataforma procesa miles de millones de eventos al día y ayuda a las empresas a tomar decisiones basadas en datos con una latencia inferior a un segundo.",
+  "companies.norden-analytics.employees": "50-100",
+  "companies.norden-analytics.founded": "2020",
+  "companies.norden-analytics.headquarters": "Berlín, Alemania",
+  "companies.norden-analytics.industry": "Datos y analítica",
+  "companies.norden-analytics.name": "Norden Analytics",
+  "companies.norden-analytics.tagline": "Inteligencia de datos en tiempo real para la empresa moderna",
+  "companies.norden-analytics.techStack": "Go, Apache Kafka, ClickHouse, Kubernetes, GCP",
+  "companies.norden-analytics.website": "https://example.com/norden",
+  "companies.vantage-research.culture": "Combinamos el rigor académico con la agilidad de una startup. Nuestro equipo incluye doctores, antiguos traders e ingenieros a los que les encanta resolver problemas complejos. Publicamos investigación, asistimos a conferencias y fomentamos la curiosidad intelectual en todos los niveles.",
+  "companies.vantage-research.description": "Vantage Research es una empresa fintech con sede en Londres que combina el aprendizaje automático con la experiencia en finanzas. Nuestros modelos respaldan decisiones de inversión para hedge funds, gestoras de activos e inversores institucionales de todo el mundo.",
+  "companies.vantage-research.employees": "100-250",
+  "companies.vantage-research.founded": "2017",
+  "companies.vantage-research.headquarters": "Londres, Reino Unido",
+  "companies.vantage-research.industry": "Fintech e investigación",
+  "companies.vantage-research.name": "Vantage Research",
+  "companies.vantage-research.tagline": "Inteligencia cuantitativa para los mercados financieros",
+  "companies.vantage-research.techStack": "Python, PyTorch, Apache Spark, PostgreSQL, Azure",
+  "companies.vantage-research.website": "https://example.com/vantage",
+  "d8fd2f432418dcd4": "Aplicar ahora",
   "e45e880e9f633071": {
     "c": [
       {
@@ -104,6 +375,17 @@
     "i": 1,
     "t": "div"
   },
+  "ee2c4828062df2a2": {
+    "c": "Requisitos",
+    "i": 1,
+    "t": "h2"
+  },
+  "f26ebf28e97609d1": {
+    "c": "Responsabilidades",
+    "i": 1,
+    "t": "h2"
+  },
+  "f8311daab61ec9f0": "Industria",
   "f836f4caad819654": [
     {
       "c": "Posiciones abiertas",
@@ -111,39 +393,51 @@
       "t": "h2"
     },
     {
-      "c": "Explora las ofertas de trabajo actuales en ingeniería, diseño y datos. Los salarios, plazos y requisitos están formateados según tu región.",
+      "c": "Explora las ofertas de trabajo actuales en ingeniería, diseño y datos. Los salarios, plazos y requisitos están formateados según tu configuración regional.",
       "i": 2,
       "t": "p"
     }
   ],
   "jobs.1.company": "Meridian Systems",
-  "jobs.1.description": "Construir y mantener aplicaciones web complejas con React y TypeScript. Tomar decisiones de arquitectura para nuestra plataforma de cara al cliente.",
+  "jobs.1.companySlug": "meridian-systems",
+  "jobs.1.description": "Desarrollar y mantener aplicaciones web complejas con React y TypeScript. Liderar las decisiones de arquitectura de nuestra plataforma de cara al cliente.",
   "jobs.1.location": "San Francisco, CA",
-  "jobs.1.title": "Ingeniero senior de Frontend",
-  "jobs.1.type": "Tiempo completo",
+  "jobs.1.longDescription": "Buscamos a un Desarrollador Frontend Senior para unirse a nuestro equipo en plena expansión en Meridian Systems. Serás responsable de crear y mantener aplicaciones web complejas con React y TypeScript, liderar decisiones de arquitectura, ofrecer mentoría a desarrolladores junior y colaborar muy de cerca con los equipos de producto y diseño. Este rol te da la oportunidad de influir en la dirección técnica de nuestra plataforma orientada al cliente, utilizada por miles de empresas en todo el mundo.",
+  "jobs.1.title": "Ingeniero/a de frontend sénior",
+  "jobs.1.type": "Jornada completa",
   "jobs.2.company": "Norden Analytics",
-  "jobs.2.description": "Diseñar e implementar microservicios escalables en Go. Trabajar en flujos de procesamiento de datos en tiempo real que procesan millones de solicitudes al día.",
+  "jobs.2.companySlug": "norden-analytics",
+  "jobs.2.description": "Diseña e implementa microservicios escalables en Go. Trabaja en pipelines de procesamiento de datos en tiempo real que gestionan millones de solicitudes al día.",
   "jobs.2.location": "Berlín, Alemania",
+  "jobs.2.longDescription": "Norden Analytics busca un/a Backend Developer para ayudarnos a escalar nuestra infraestructura de datos. Diseñarás e implementarás microservicios en Go, trabajarás en pipelines de procesamiento de datos en tiempo real y te asegurarás de que nuestros sistemas puedan soportar las crecientes exigencias de millones de solicitudes diarias. Colaborarás con un talentoso equipo de ingenieros en nuestra oficina de Berlín, con la flexibilidad de trabajar en remoto parte de la semana.",
   "jobs.2.title": "Desarrollador Backend",
-  "jobs.2.type": "Tiempo completo",
+  "jobs.2.type": "Jornada completa",
   "jobs.3.company": "Luma Creative",
-  "jobs.3.description": "Define la experiencia de usuario de nuestra herramienta de colaboración de diseño. Realiza investigaciones, crea prototipos y colabora estrechamente con el equipo de ingeniería para lanzar interfaces pulidas.",
+  "jobs.3.companySlug": "luma-creative",
+  "jobs.3.description": "Da forma a la experiencia de usuario de nuestra herramienta de colaboración para diseño. Lleva a cabo investigación, crea prototipos y trabaja en estrecha colaboración con el equipo de ingeniería para lanzar interfaces pulidas.",
   "jobs.3.location": "Tokio, Japón",
-  "jobs.3.title": "Diseñador de producto",
-  "jobs.3.type": "Tiempo completo",
+  "jobs.3.longDescription": "Luma Creative está buscando a un/a Product Designer para dar forma al futuro de nuestra plataforma de colaboración de diseño. Realizarás investigación con usuarios, crearás wireframes y prototipos de alta fidelidad, y colaborarás de cerca con el equipo de ingeniería para lanzar interfaces muy bien diseñadas. El puesto está ubicado en nuestro estudio de Tokio y te ofrece la oportunidad de trabajar en un producto que usan profesionales creativos de todo el mundo.",
+  "jobs.3.title": "Diseñador/a de producto",
+  "jobs.3.type": "Jornada completa",
   "jobs.4.company": "Cirrus Infrastructure",
-  "jobs.4.description": "Gestiona la infraestructura en la nube sobre AWS y GCP. Automatiza los pipelines de despliegue y mejora la fiabilidad del sistema en una red global de servicios.",
-  "jobs.4.location": "Remoto",
-  "jobs.4.title": "Ingeniero DevOps",
+  "jobs.4.companySlug": "cirrus-infrastructure",
+  "jobs.4.description": "Gestionar la infraestructura en la nube en AWS y GCP. Automatizar los pipelines de despliegue y mejorar la fiabilidad de los sistemas en una red global de servicios.",
+  "jobs.4.location": "En remoto",
+  "jobs.4.longDescription": "Cirrus Infrastructure está contratando a un DevOps Engineer para gestionar y evolucionar nuestra infraestructura multinube en AWS y GCP. Te encargarás de automatizar los pipelines de despliegue, mejorar la monitorización y las alertas, y liderar iniciativas para mejorar la fiabilidad en nuestra red global de servicios. Es un puesto 100 % remoto, abierto a personas en cualquier zona horaria, con la comunicación asíncrona como primera opción.",
+  "jobs.4.title": "Ingeniero/a DevOps",
   "jobs.4.type": "Contrato",
   "jobs.5.company": "Vantage Research",
-  "jobs.5.description": "Desarrolla modelos de aprendizaje automático para la predicción financiera. Analiza grandes volúmenes de datos y presenta los resultados a las partes interesadas de toda la organización.",
+  "jobs.5.companySlug": "vantage-research",
+  "jobs.5.description": "Desarrolla modelos de aprendizaje automático para la predicción financiera, analiza grandes volúmenes de datos y presenta los resultados a las partes interesadas de toda la organización.",
   "jobs.5.location": "Londres, Reino Unido",
+  "jobs.5.longDescription": "Vantage Research busca un/a Data Scientist para unirse a nuestro equipo de investigación cuantitativa en Londres. Desarrollarás modelos de aprendizaje automático para la predicción financiera, analizarás grandes conjuntos de datos y comunicarás conclusiones tanto a perfiles técnicos como no técnicos. Este puesto conecta la investigación de vanguardia en ML con aplicaciones financieras del mundo real.",
   "jobs.5.title": "Científico de datos",
   "jobs.5.type": "Tiempo completo",
   "jobs.6.company": "Aether Apps",
-  "jobs.6.description": "Crea aplicaciones móviles multiplataforma usando React Native. Colabora con diseñadores para brindar experiencias fluidas y de alto rendimiento en iOS y Android.",
+  "jobs.6.companySlug": "aether-apps",
+  "jobs.6.description": "Crea aplicaciones móviles multiplataforma con React Native. Colabora con diseñadores para ofrecer experiencias móviles fluidas y de alto rendimiento en iOS y Android.",
   "jobs.6.location": "Sídney, Australia",
-  "jobs.6.title": "Desarrollador móvil",
-  "jobs.6.type": "Medio tiempo"
+  "jobs.6.longDescription": "Aether Apps está buscando una persona desarrolladora móvil para crear y mejorar nuestras aplicaciones multiplataforma con React Native. Desde nuestra oficina de Sídney, trabajarás codo a codo con diseñadores y responsables de producto para ofrecer experiencias móviles fluidas y de alto rendimiento en iOS y Android. Este puesto a tiempo parcial es ideal para personas desarrolladoras con experiencia que buscan un mejor equilibrio entre trabajo y vida personal.",
+  "jobs.6.title": "Desarrollador/a de aplicaciones móviles",
+  "jobs.6.type": "Tiempo parcial"
 }

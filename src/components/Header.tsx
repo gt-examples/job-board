@@ -31,7 +31,7 @@ export default async function Header() {
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-400 hover:text-neutral-200 transition-colors"
-            aria-label="View on GitHub"
+            aria-label={gt("View on GitHub")}
           >
             <svg
               width="20"

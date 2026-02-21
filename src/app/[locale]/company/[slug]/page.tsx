@@ -10,9 +10,7 @@ import dictionary from "@/dictionary";
 
 const companySlugs = Object.keys(dictionary.companies);
 
-export function generateStaticParams() {
-  return companySlugs.map((slug) => ({ slug }));
-}
+export const dynamic = "force-dynamic";
 
 export default async function CompanyPage({
   params,

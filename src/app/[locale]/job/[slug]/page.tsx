@@ -7,9 +7,7 @@ import Footer from "@/components/Footer";
 import Disclaimer from "@/components/Disclaimer";
 import { getJobBySlug, jobs } from "@/jobs";
 
-export function generateStaticParams() {
-  return jobs.map((job) => ({ slug: job.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export default async function JobDetailPage({
   params,

@@ -12,21 +12,20 @@ const dictionary = {
       department: "Engineering",
       fullDescription:
         "We are looking for a Senior Frontend Engineer to join our growing team. You will be responsible for building and maintaining complex web applications using React and TypeScript, leading architectural decisions for our customer-facing platform, and mentoring junior developers. You will work closely with product designers and backend engineers to deliver polished, performant user experiences.",
-      "requirements.0": "5+ years of experience with React and TypeScript",
-      "requirements.1":
-        "Strong understanding of web performance optimization",
-      "requirements.2":
-        "Experience with state management libraries such as Redux or Zustand",
-      "requirements.3":
-        "Familiarity with CI/CD pipelines and automated testing",
-      "requirements.4":
-        "Excellent communication and collaboration skills",
-      "benefits.0": "Competitive salary and equity package",
-      "benefits.1":
-        "Comprehensive health, dental, and vision insurance",
-      "benefits.2": "Flexible remote work policy",
-      "benefits.3": "Annual learning and development budget",
-      "benefits.4": "Generous paid time off",
+      requirements: {
+        "0": "5+ years of experience with React and TypeScript",
+        "1": "Strong understanding of web performance optimization",
+        "2": "Experience with state management libraries such as Redux or Zustand",
+        "3": "Familiarity with CI/CD pipelines and automated testing",
+        "4": "Excellent communication and collaboration skills"
+      },
+      benefits: {
+        "0": "Competitive salary and equity package",
+        "1": "Comprehensive health, dental, and vision insurance",
+        "2": "Flexible remote work policy",
+        "3": "Annual learning and development budget",
+        "4": "Generous paid time off"
+      },
     },
     2: {
       slug: "backend-developer",
@@ -40,21 +39,20 @@ const dictionary = {
       department: "Engineering",
       fullDescription:
         "Join Norden Analytics as a Backend Developer and help us build the next generation of our real-time data processing infrastructure. You will design and implement scalable microservices in Go, work on event-driven architectures, and optimize systems that serve millions of requests daily. Our team values clean code, thorough testing, and continuous improvement.",
-      "requirements.0":
-        "3+ years of experience with Go or similar systems languages",
-      "requirements.1":
-        "Experience designing and building RESTful APIs and microservices",
-      "requirements.2":
-        "Knowledge of message queues such as Kafka or RabbitMQ",
-      "requirements.3":
-        "Familiarity with containerization and orchestration tools",
-      "requirements.4":
-        "Understanding of database design and query optimization",
-      "benefits.0": "Relocation assistance for Berlin",
-      "benefits.1": "30 days paid vacation",
-      "benefits.2": "Public transit subsidy",
-      "benefits.3": "Weekly team lunches",
-      "benefits.4": "Home office equipment stipend",
+      requirements: {
+        "0": "3+ years of experience with Go or similar systems languages",
+        "1": "Experience designing and building RESTful APIs and microservices",
+        "2": "Knowledge of message queues such as Kafka or RabbitMQ",
+        "3": "Familiarity with containerization and orchestration tools",
+        "4": "Understanding of database design and query optimization"
+      },
+      benefits: {
+        "0": "Relocation assistance for Berlin",
+        "1": "30 days paid vacation",
+        "2": "Public transit subsidy",
+        "3": "Weekly team lunches",
+        "4": "Home office equipment stipend"
+      },
     },
     3: {
       slug: "product-designer",
@@ -68,19 +66,20 @@ const dictionary = {
       department: "Design",
       fullDescription:
         "Luma Creative is seeking a Product Designer to shape the user experience of our design collaboration tool used by thousands of creative professionals worldwide. You will conduct user research, create wireframes and prototypes, define interaction patterns, and work closely with engineering to ship polished, accessible interfaces. We value thoughtful design that balances aesthetics with usability.",
-      "requirements.0": "4+ years of product design experience",
-      "requirements.1": "Proficiency with Figma or similar design tools",
-      "requirements.2":
-        "Strong portfolio demonstrating user-centered design process",
-      "requirements.3":
-        "Experience conducting user research and usability testing",
-      "requirements.4":
-        "Understanding of accessibility standards and best practices",
-      "benefits.0": "Flexible working hours",
-      "benefits.1": "Annual design conference attendance",
-      "benefits.2": "Creative tools and software provided",
-      "benefits.3": "Health and wellness programs",
-      "benefits.4": "Sabbatical leave after three years",
+      requirements: {
+        "0": "4+ years of product design experience",
+        "1": "Proficiency with Figma or similar design tools",
+        "2": "Strong portfolio demonstrating user-centered design process",
+        "3": "Experience conducting user research and usability testing",
+        "4": "Understanding of accessibility standards and best practices"
+      },
+      benefits: {
+        "0": "Flexible working hours",
+        "1": "Annual design conference attendance",
+        "2": "Creative tools and software provided",
+        "3": "Health and wellness programs",
+        "4": "Sabbatical leave after three years"
+      },
     },
     4: {
       slug: "devops-engineer",
@@ -94,21 +93,21 @@ const dictionary = {
       department: "Infrastructure",
       fullDescription:
         "Cirrus Infrastructure is hiring a DevOps Engineer to manage and improve our cloud infrastructure across AWS and GCP. You will automate deployment pipelines, implement monitoring and alerting systems, and improve reliability across our global network of services. This is a contract role with the possibility of extension, and can be performed fully remotely from anywhere in the world.",
-      "requirements.0":
-        "6+ years of experience in DevOps or Site Reliability Engineering",
-      "requirements.1": "Deep expertise with AWS or GCP cloud services",
-      "requirements.2":
-        "Experience with infrastructure as code tools such as Terraform",
-      "requirements.3": "Strong scripting skills in Python or Bash",
-      "requirements.4":
-        "Knowledge of monitoring tools such as Prometheus and Grafana",
-      "requirements.5":
-        "Experience with Kubernetes in production environments",
-      "benefits.0": "Fully remote work from anywhere",
-      "benefits.1": "Competitive contract rates",
-      "benefits.2": "Flexible schedule",
-      "benefits.3": "Access to cloud certification programs",
-      "benefits.4": "Annual team retreat",
+      requirements: {
+        "0": "6+ years of experience in DevOps or Site Reliability Engineering",
+        "1": "Deep expertise with AWS or GCP cloud services",
+        "2": "Experience with infrastructure as code tools such as Terraform",
+        "3": "Strong scripting skills in Python or Bash",
+        "4": "Knowledge of monitoring tools such as Prometheus and Grafana",
+        "5": "Experience with Kubernetes in production environments"
+      },
+      benefits: {
+        "0": "Fully remote work from anywhere",
+        "1": "Competitive contract rates",
+        "2": "Flexible schedule",
+        "3": "Access to cloud certification programs",
+        "4": "Annual team retreat"
+      },
     },
     5: {
       slug: "data-scientist",
@@ -122,20 +121,20 @@ const dictionary = {
       department: "Data Science",
       fullDescription:
         "Vantage Research is looking for a Data Scientist to develop machine learning models for financial forecasting and risk analysis. You will work with large, complex datasets, build predictive models, and present actionable insights to stakeholders across the organization. Our data science team operates at the intersection of finance and technology, solving challenging problems that directly impact investment decisions.",
-      "requirements.0":
-        "4+ years of experience in data science or machine learning",
-      "requirements.1": "Strong proficiency in Python and SQL",
-      "requirements.2":
-        "Experience with machine learning frameworks such as scikit-learn, TensorFlow, or PyTorch",
-      "requirements.3":
-        "Knowledge of statistical modeling and time series analysis",
-      "requirements.4":
-        "Ability to communicate technical findings to non-technical audiences",
-      "benefits.0": "Performance-based bonuses",
-      "benefits.1": "Private health insurance",
-      "benefits.2": "Central London office with hybrid work options",
-      "benefits.3": "Conference and training budget",
-      "benefits.4": "Company pension scheme",
+      requirements: {
+        "0": "4+ years of experience in data science or machine learning",
+        "1": "Strong proficiency in Python and SQL",
+        "2": "Experience with machine learning frameworks such as scikit-learn, TensorFlow, or PyTorch",
+        "3": "Knowledge of statistical modeling and time series analysis",
+        "4": "Ability to communicate technical findings to non-technical audiences"
+      },
+      benefits: {
+        "0": "Performance-based bonuses",
+        "1": "Private health insurance",
+        "2": "Central London office with hybrid work options",
+        "3": "Conference and training budget",
+        "4": "Company pension scheme"
+      },
     },
     6: {
       slug: "mobile-developer",
@@ -149,19 +148,20 @@ const dictionary = {
       department: "Engineering",
       fullDescription:
         "Aether Apps is hiring a part-time Mobile Developer to build cross-platform mobile applications using React Native. You will collaborate closely with designers and backend engineers to deliver smooth, performant experiences on both iOS and Android. This role is ideal for someone seeking flexible hours while working on consumer-facing products used by thousands of people across Australia and New Zealand.",
-      "requirements.0": "4+ years of mobile development experience",
-      "requirements.1": "Proficiency with React Native and TypeScript",
-      "requirements.2":
-        "Experience publishing apps to the App Store and Google Play",
-      "requirements.3":
-        "Understanding of mobile UI/UX best practices",
-      "requirements.4":
-        "Familiarity with native modules and platform-specific APIs",
-      "benefits.0": "Flexible part-time schedule",
-      "benefits.1": "Modern Sydney office with harbor views",
-      "benefits.2": "Equipment and software provided",
-      "benefits.3": "Professional development allowance",
-      "benefits.4": "Team social events",
+      requirements: {
+        "0": "4+ years of mobile development experience",
+        "1": "Proficiency with React Native and TypeScript",
+        "2": "Experience publishing apps to the App Store and Google Play",
+        "3": "Understanding of mobile UI/UX best practices",
+        "4": "Familiarity with native modules and platform-specific APIs"
+      },
+      benefits: {
+        "0": "Flexible part-time schedule",
+        "1": "Modern Sydney office with harbor views",
+        "2": "Equipment and software provided",
+        "3": "Professional development allowance",
+        "4": "Team social events"
+      },
     },
   },
   companies: {
